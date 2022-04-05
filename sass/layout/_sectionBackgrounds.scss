@@ -1,0 +1,54 @@
+.section01 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#000f33, 0.8),
+      rgba($blue-default, 0)
+    ),
+    url(../img/firstSectionBg.jpg);
+}
+
+.section02,
+.section04-1 {
+  background: linear-gradient(
+    0deg,
+    $white 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 193, 255, 0.1) 100%
+  );
+}
+
+.section03 {
+  background: rgb(0, 108, 185);
+  background: linear-gradient(
+    201deg,
+    rgba(0, 108, 185, 1) 0%,
+    rgba(0, 8, 18, 1) 100%
+  );
+}
+
+.section05 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#000f33, 0.9),
+      rgba($blue-default, 0.2)
+    ),
+    url(../img/section5Bg.jpg);
+}
+
+// .section08 {
+//   background-image: linear-gradient(
+//       to right bottom,
+//       rgba($blue-medium, 0.8),
+//       rgba($blue-medium, 0.8)
+//     ),
+//     url(../img/section8Bg.jpg);
+
+//   @include respond(tab-port) {
+//     background-image: linear-gradient(
+//         to right bottom,
+//         rgba($blue-medium, 0.8),
+//         rgba($blue-medium, 0.8)
+//       ),
+//       url(../img/section8BgTablet.jpg);
+//   }
+// }

@@ -1,0 +1,90 @@
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 10rem;
+  margin-right: 10rem;
+  @include respond(tab-port) {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 6rem;
+    gap: 6rem;
+  }
+}
+
+.single-chart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include respond(tab-port) {
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 60%;
+  max-height: 250px;
+  @include respond(tab-port) {
+    max-width: 100%;
+  }
+}
+
+.circle-bg {
+  fill: none;
+  stroke: $blue-medium;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.blue .circle {
+  stroke: $blue-lighter;
+  animation: progress 0.7s ease-out forwards;
+}
+
+.percentage {
+  fill: $blue-lighter;
+  font-size: 0.7em;
+  text-anchor: middle;
+  font-weight: 900;
+}
+
+.percentage-arrow {
+  fill: $yellow;
+}
+
+.graph-icon {
+  width: auto;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.graph-title {
+  text-align: center;
+  margin-top: 1rem;
+  color: $blue-lighter;
+  font-size: 2.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+// color: $black;
+// font-size: 5rem;
+// line-height: 6rem;
+// font-weight: 900;
+// margin-bottom: 3rem;
+// text-transform: uppercase;

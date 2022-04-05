@@ -1,0 +1,112 @@
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-top-small {
+  margin-top: 5rem !important;
+}
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem !important;
+  }
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 10rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.u-margin-top-big {
+  margin-top: 10rem !important;
+}
+.u-margin-top-medium {
+  margin-top: 6rem !important;
+}
+.u-margin-top-huge {
+  margin-top: 20rem !important;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15rem !important;
+}
+
+.text-blue-lighter {
+  color: $blue-lighter;
+}
+
+.text-blue-default {
+  color: $blue-default;
+}
+
+.text-blue-dark {
+  color: $blue-dark;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-yellow {
+  color: $yellow;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-pink {
+  color: $pink;
+}
+
+.text-white {
+  color: $white;
+}
+
+.on-phone {
+  @include respond(phone) {
+    display: block !important;
+  }
+}
+
+.on-tablet {
+  @include respond(tab-port) {
+    display: block !important;
+  }
+}
+
+.on-desktop {
+  @include respond(min-desktop) {
+    display: block !important;
+  }
+}
+
+.tablet-flex-column {
+  @include respond(tab-port) {
+    flex-direction: column !important;
+  }
+}
+
+.background-blue-dark {
+  background-color: $blue-dark !important;
+}
+
+.flex-fix {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.margin-bottom-zero {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,384 @@
+.navbar {
+  display: none;
+  background-color: $azul-petroleo;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  z-index: 3000000000000;
+  text-align: center;
+
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 86vw;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+ 
+
+
+
+  // &__diagonal {
+  //   background-size: cover;
+  //   background-position: right;
+  //   background-image: url(../img/menu-polygon.svg);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 35vw;
+  //   height: 100%;
+  //   display: flex;
+  //   align-items: center;
+  //   background-repeat: no-repeat;  
+  // }
+
+  // &__content {
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 7vw;
+  //   display: flex;
+  //   align-items: center;
+  //   width: 50%;
+  //   justify-content: space-between;
+  // }
+
+  &__logo {
+    height: 7rem;
+    width: auto;
+    z-index: 11;
+  }
+
+  // &__relatorio-contas {
+  //   height: 6rem;
+  //   width: auto;
+  //   margin-left: 7vw;
+  //   padding-left: 20px;
+  //   z-index: 11;
+  // }
+
+  &__buttons {
+    height: 100%;
+    width: auto;
+    display: flex;
+    margin-right: 20px;
+    z-index: 11;
+  }
+
+  &__button {
+    height: 100%;
+    width: 12rem;
+    transform: skew(-20deg);
+    z-index: 11;
+    position: relative;
+    &--1 {
+      border-left: 1.5px solid $blue-default;
+      border-right: 1.5px solid $blue-default;
+    }
+    &--2 {
+      border-right: 1.5px solid $blue-default;
+    }
+  }
+
+
+  &__button:hover {
+    .cls-1 {
+      fill: white !important;
+    }
+    .navbar__button--title {
+      color: white;
+    }
+  }
+
+  &__button--icon {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) skew(20deg);
+  }
+  
+  &__button--title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%) skew(20deg);
+    color: $blue-default;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  &__button--1::before,
+  &__button--2::before {
+    @include respond(tab-port) {
+      display: none;
+    }
+    @include respond(phone) {
+      display: none;
+    }
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: $blue-default;
+    opacity: 1;
+
+    transition: transform 300ms ease-in-out;
+    transform: translateY(100%);
+    transform-origin: bottom center;
+  }
+
+  &__button--1:hover::before,
+  &__button--2:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+
+
+.navbar-title, .title {
+  display: flex;
+  align-items: center;
+
+  &__vline {
+    height: 3.5rem;
+    width: 0.2rem;
+    background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0) );
+    border-radius: 99px;
+    margin: 0 1.2rem;
+  }
+
+  &__text {
+    color: $white;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
+
+.navbar-img {
+  height: 7.1rem;
+  width: auto;
+}
+
+.navbar-controllers {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-language {
+
+  margin-right: 4rem;
+
+  &__text {
+    color: $white;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-decoration: none;
+  }
+
+  &__active {
+    color: $white;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-decoration: none;
+    border-bottom: 0.2rem solid white;
+    padding-bottom: 3px;
+    margin-right: 1.8rem;
+  }
+}
+
+.navbar-downloads {
+  display: flex;
+  align-items: center;
+  &__hamburguer {
+    height: 2.5rem;
+    width: auto;
+    margin-left: 1.4rem;
+  }
+}
+
+.download-button {
+  text-decoration: none;
+  display: flex;
+}
+
+
+
+
+
+
+@include respond(tab-port) {
+  .navbar {
+    &__content {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    &__relatorio-contas {
+      height: 5rem;
+    }
+  
+    &__button {
+      width: 10rem;
+      border: none;
+      transform: skew(0deg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__button--icon {
+      top: unset;
+      left: unset;  
+      transform: skew(0deg);
+    }
+  }
+}
+
+@include respond(phone) {
+  .navbar {
+    &__diagonal {
+      width: 50vw;
+    }
+
+    &__content {
+      padding: 0px;
+      width: 43%;
+    }
+
+    &__relatorio-contas {
+      height: 4rem;
+      padding-left: 0;
+    }
+
+    &__logo {
+      height: 5rem;
+    }
+
+    &__buttons {
+      margin-right: 0px;
+    }
+  
+    &__button {
+      width: 6rem;
+      border: none;
+      transform: skew(0deg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__button--icon {
+      top: unset;
+      left: unset;  
+      transform: skew(0deg);
+    }
+  }
+}
+
+
+.menu-open {
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  background-color: $white;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include respond(tab-port) {
+    width: 100%;
+    bottom: 0;
+    // height: calc(100vh - 10.6rem + 4px);
+    z-index: 5000000000000;
+  }
+  @include respond(phone) {
+    width: 100%;
+    // height: calc(100vh - 10.6rem + 4px);
+    z-index: 5000000000000;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+.menu-in {
+  opacity: 1;
+  animation-name: appearMenu;
+  animation-duration: 1s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes appearMenu {
+  from {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+  to {
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.menu-out {
+  animation-name: disappearMenu;
+  animation-duration: 1s;
+  transition-timing-function: ease-out;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes disappearMenu {
+  from {
+    transform: translateY(0);
+    visibility: visible;
+  }
+  to {
+    transform: translateY(-100%);
+    visibility: visible;
+  }
+}
+
+.button-active {
+  background-color: $blue-lighter !important;
+  border-right: 1.5px solid $blue-lighter;
+  .cls-1 {
+    fill: white !important;
+  }
+  .navbar__button--title {
+    color: $white;
+  }
+}
+
+.remove-border {
+  border-right: 1.5px solid $blue-lighter !important;
+}
+
+.button-active-mobile {
+  .cls-1m {
+    fill: $blue-lighter !important;
+  }
+}

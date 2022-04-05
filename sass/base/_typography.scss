@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/BentonSans-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/bentonsans-regular-webfont.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/BentonSansCond-Light.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/bentonsanscond-light-webfont.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/BentonSans-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/bentonsans_bold-webfont.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/BentonSans-Black.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BentonSans";
+  src: url("../fonts/bentonsans_black-webfont.woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "BentonSans", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.section {
+  &__title {
+    color: $black;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    @include respond(phone) {
+      // width < 1025?
+      margin-bottom: 1.5rem;
+      font-size: 4rem;
+      line-height: 5.5rem;
+    }
+  }
+
+  &__subtitle {
+    color: $white;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 3.2rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    @include respond(phone) {
+      line-height: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+    &--5 {
+      display: none;
+    }
+  }
+
+  &__text {
+    color: $white;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 3.2rem;
+    margin-bottom: 3rem;
+
+    &--without-margin {
+      margin-bottom: 0;
+    }
+  }
+
+  .pie-graph {
+    height: 21.6rem;
+    align-self: flex-start;
+    @include respond(tab-port) {
+      height: 31.6rem;
+    }
+  }
+}
+

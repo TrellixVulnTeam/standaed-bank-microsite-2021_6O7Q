@@ -1,0 +1,119 @@
+.section4-5 {
+  // overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: right;
+  background: linear-gradient(
+    201deg,
+    rgba(0, 108, 185, 1) 0%,
+    rgba(0, 8, 18, 1) 100%
+  );
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__content {
+    width: 50%;
+    transform: translateX(7vw);
+  }
+
+  &__photo {
+    width: 50%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0% 100%);
+    background-image: url(../img/heroes.jpg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.section4-5-itens-container {
+  display: flex;
+  line-height: 3.2rem;
+  margin-bottom: 3rem;
+  column-gap: 6rem;
+  width: 110%;
+  @include respond(tab-port) {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+.section4-5-itens {
+  display: flex;
+  color: $white;
+  width: 100%;
+  &__icon {
+    width: auto;
+    height: 7.5rem;
+    margin-right: 2rem;
+  }
+  &__number {
+    width: 100%;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+  }
+}
+
+.colaboradores {
+  padding-bottom: 3.1rem;
+  &__icon {
+    height: 4rem;
+    width: auto;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    padding-left: 2rem;
+    color: $white;
+    border-left: 0.6rem solid $orange;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+    @include respond(tab-port) {
+      margin-bottom: 3rem;
+    }
+    &--number {
+      font-weight: 900;
+      font-size: 4rem;
+      line-height: 6rem;
+    }
+
+    &--title {
+      font-weight: 400;
+      font-size: 2.1rem;
+      line-height: 2.6rem;
+    }
+  }
+}
+
+.cont {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  @include respond(tab-port) {
+    justify-content: space-between;
+    align-items: center;
+  }
+  @include respond(phone) {
+    justify-content: space-between;
+  }
+}
+
+.container__right--4-3 {
+  &__column1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}

@@ -1,0 +1,36 @@
+.image-container {
+  position: relative;
+}
+
+.image-pca-pce {
+  width: 100%;
+  height: auto;
+}
+
+.captions {
+  &__text {
+    color: $blue-medium;
+    font-weight: 100;
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    padding: 1rem 5rem;
+
+    &--white {
+      color: $white;
+    }
+  }
+  &__pca {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: $white;
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+  }
+  &__pce {
+    position: absolute;
+    right: 0;
+    bottom: -2rem;
+    background-color: $blue-medium;
+    clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

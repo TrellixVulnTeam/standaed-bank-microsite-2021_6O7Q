@@ -1,0 +1,84 @@
+.section-badges {
+  display: flex;
+  overflow: hidden;
+  min-height: auto !important;
+  height: auto;
+  width: 100%;
+  background-color: $white;
+
+  &__content {
+    width: 86%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    @include respond(phone) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.badges-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 8rem;
+  margin-bottom: 12rem;
+  @include respond(phone) {
+    margin-bottom: 6rem;
+    margin-top: 0;
+  }
+  &--phone {
+    margin-top: 4rem;
+  }
+}
+
+.badges_images {
+  width: auto;
+  height: 15.7rem;
+  @include respond(phone) {
+    height: 7rem;
+  }
+}
+
+// .wrapper-badges {
+//   margin-right: auto; /* 1 */
+//   margin-left: auto; /* 1 */
+
+//   max-width: 86vw; /* 2 */
+
+//   padding-right: 20px; /* 3 */
+//   padding-left: 20px; /* 3 */
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 55rem;
+//   align-items: flex-start;
+//   position: relative;
+//   background-color: forestgreen;
+// }
+
+// .subsection {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 100%;
+//   height: 40vh;
+//   background: linear-gradient(
+//     0deg,
+//     $white 0%,
+//     rgba(0, 0, 0, 0) 50%,
+//     rgba(0, 193, 255, 0.1) 100%
+//   );
+
+//   &__container {
+//     display: flex;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+//     align-content: center;
+//     width: 86vw;
+//     img {
+//       padding: 4rem 0;
+//     }
+//   }
+// }
