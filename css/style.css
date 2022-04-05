@@ -602,7 +602,7 @@ body {
   margin-right: 4rem; }
   .navbar-language__text {
     color: #fff;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none; }
@@ -627,6 +627,23 @@ body {
 .download-button {
   text-decoration: none;
   display: flex; }
+
+.hamburguer-icon {
+  display: block;
+  margin-left: 1.4rem; }
+  .hamburguer-icon__bar {
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 99px;
+    margin-bottom: 9px; }
+  .hamburguer-icon__last {
+    margin-bottom: 0px; }
+  .hamburguer-icon__active {
+    background-color: #00A9E0; }
+
+.navbar-downloadTextOn {
+  color: #00A9E0 !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .navbar__content {
