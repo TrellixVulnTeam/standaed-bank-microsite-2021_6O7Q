@@ -190,6 +190,10 @@
     text-decoration: none;
   }
 
+  &__text:hover {
+    opacity: 0.5;
+  }
+
   &__active {
     color: $white;
     font-weight: 700;
@@ -205,11 +209,16 @@
 .navbar-downloads {
   display: flex;
   align-items: center;
+
   &__hamburguer {
     height: 2.5rem;
     width: auto;
     margin-left: 1.4rem;
   }
+}
+
+.navbar-downloads:hover {
+opacity: 0.5;
 }
 
 .download-button {

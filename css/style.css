@@ -606,6 +606,8 @@ body {
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none; }
+  .navbar-language__text:hover {
+    opacity: 0.5; }
   .navbar-language__active {
     color: #fff;
     font-weight: 700;
@@ -623,6 +625,9 @@ body {
     height: 2.5rem;
     width: auto;
     margin-left: 1.4rem; }
+
+.navbar-downloads:hover {
+  opacity: 0.5; }
 
 .download-button {
   text-decoration: none;
