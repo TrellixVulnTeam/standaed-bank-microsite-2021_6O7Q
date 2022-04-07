@@ -20,8 +20,8 @@ function menuFunction() {
       buttonActiveMobile.classList.remove('button-active-mobile');
       button1.classList.remove('remove-border');
     } else {
-      x.classList.remove('menu-out');
       x.classList.add('menu-in');
+      x.classList.remove('menu-out');
       for (const box of ActiveHamb) {
         box.classList.add('hamburguer-icon__active');
       }
