@@ -303,7 +303,7 @@ opacity: 0.5;
       }
     
       &__text:hover {
-        opacity: 0.5;
+        opacity: 1;
       }
     
       &__active {
@@ -376,6 +376,10 @@ opacity: 0.5;
       margin-left: 3.8rem;
     
     }
+    .hamburguer-icon:hover {
+      opacity: 1;
+    
+    }
 
     .navbar-controllers {
       width: 40vw;
@@ -430,6 +434,9 @@ opacity: 0.5;
       left: unset;  
       transform: skew(0deg);
     }
+  }
+  .navbar-downloads:hover {
+    opacity: 1;
   }
 }
 

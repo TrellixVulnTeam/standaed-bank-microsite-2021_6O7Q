@@ -691,7 +691,7 @@ body {
         line-height: 2.8rem;
         text-decoration: none; }
       .navbar .navbar-language__text:hover {
-        opacity: 0.5; }
+        opacity: 1; }
       .navbar .navbar-language__active {
         color: #fff;
         font-weight: 700;
@@ -737,6 +737,8 @@ body {
       width: 40vw; }
     .navbar .hamburguer-icon {
       margin-left: 3.8rem; }
+    .navbar .hamburguer-icon:hover {
+      opacity: 1; }
     .navbar .navbar-controllers {
       width: 40vw;
       justify-content: flex-end; }
@@ -773,7 +775,9 @@ body {
     .navbar__button--icon {
       top: unset;
       left: unset;
-      transform: skew(0deg); } }
+      transform: skew(0deg); }
+  .navbar-downloads:hover {
+    opacity: 1; } }
 
 .menu-open {
   position: fixed;
