@@ -3,17 +3,20 @@
   &:link,
   &:visited,   &:focus {
     position: relative;
-    display: inline-block;
-    background-color: $blue-default;
+    display: flex;
+    align-items: center;
+    background-color: $azul-petroleo;
+    background-image: linear-gradient(90deg, #0A2240 0%, #173A66 100%);
+    border-radius: 10px;
     color: $white;
     border: none;
     text-decoration: none;
     padding: 1rem 2.5rem;
     font-size: 2.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: 'bentonsansregular';
+    // text-transform: uppercase;
     cursor: pointer;
-    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+    // clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
     width: 30rem;
     transition: color 300ms ease-in-out;
     @include respond(phone) {
@@ -21,68 +24,85 @@
     }
   }
 
-  &--long30 {
-    width: 30% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
+  &__main-button {
+    background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%) !important;
+
   }
 
-  &--long35 {
-    width: 35% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
 
-  &--long50 {
-    width: 50% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
 
-  &--long65 {
-    width: 65% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
+  // &--long30 {
+  //   width: 30% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--long75 {
-    width: 75% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
+  // &--long35 {
+  //   width: 35% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--long90 {
-    width: 90% !important;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
+  // &--long50 {
+  //   width: 50% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--long100b {
-    width: 110% !important;
-    clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
+  // &--long65 {
+  //   width: 65% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--long85b {
-    width: 85% !important;
-    clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-    font-weight: 700 !important;
-  }
+  // &--long75 {
+  //   width: 75% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--long100 {
-    width: 100% !important;
-    clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-    font-weight: 400 !important;
-  }
+  // &--long90 {
+  //   width: 90% !important;
+  //   clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--blue-light {
-    background-color: $blue-lighter !important;
-  }
+  // &--long100b {
+  //   width: 110% !important;
+  //   clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
 
-  &--6-tablet {
-    display: none !important;
-  }
+  // &--long85b {
+  //   width: 85% !important;
+  //   clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
+  //   font-weight: 700 !important;
+  // }
+
+  // &--long100 {
+  //   width: 100% !important;
+  //   // clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
+  //   font-weight: 100 !important;
+  //   border-radius: 10px;
+  //   text-transform: none;
+  //   line-height: 2.4rem;
+  // }
+
+  // &--blue-light {
+  //   background-color: $blue-lighter !important;
+  // }
+
+  // &--6-tablet {
+  //   display: none !important;
+  // }
 }
+
+.button--downloads{
+  width: 100% !important;
+  min-height: 7.8rem;
+  vertical-align: baseline;
+}
+
 
 .button-icon {
   position: absolute;
@@ -94,60 +114,60 @@
 }
 
 // Button hover animation
-.button::before {
-  @include respond(phone) {
-    visibility: hidden;
-  }
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  background-color: $blue-lighter;
+// .button::before {
+//   @include respond(phone) {
+//     visibility: hidden;
+//   }
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   z-index: -1;
+//   background-color: $blue-lighter;
 
-  transition: transform 300ms ease-in-out;
-  transform: scaleX(0);
-  transform-origin: left;
-}
+//   transition: transform 300ms ease-in-out;
+//   transform: scaleX(0);
+//   transform-origin: left;
+// }
 
-.button:hover::before {
-  @include respond(phone) {
-    height: 2.3rem;
-    right: 20px;
-  }
-  transform: scaleX(1);
-  backface-visibility: hidden;
-}
+// .button:hover::before {
+//   @include respond(phone) {
+//     height: 2.3rem;
+//     right: 20px;
+//   }
+//   transform: scaleX(1);
+//   backface-visibility: hidden;
+// }
 
-.button-0::before {
-  background-color: $blue-default;
-}
+// .button-0::before {
+//   background-color: $blue-default;
+// }
 
-.button--1::before {
-  background-color: $blue-lighter;
-}
+// .button--1::before {
+//   background-color: $blue-lighter;
+// }
 
-.button--2::before {
-  background-color: $green;
-}
+// .button--2::before {
+//   background-color: $green;
+// }
 
-.button--3::before {
-  background-color: $yellow;
-}
+// .button--3::before {
+//   background-color: $yellow;
+// }
 
-.button--4::before {
-  background-color: $orange;
-}
+// .button--4::before {
+//   background-color: $orange;
+// }
 
-.button--5::before {
-  background-color: $red;
-}
+// .button--5::before {
+//   background-color: $red;
+// }
 
-.button--6::before {
-  background-color: $pink;
-}
+// .button--6::before {
+//   background-color: $pink;
+// }
 
 
 // Arrow buttons

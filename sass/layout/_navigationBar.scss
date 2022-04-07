@@ -161,8 +161,8 @@
   }
 
   &__text {
+    font-family: 'bentonsansbook';
     color: $white;
-    font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.8rem;
   }
@@ -184,7 +184,7 @@
 
   &__text {
     color: $white;
-    font-weight: 100;
+    font-family: 'bentonsansbook';
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none;
@@ -196,7 +196,7 @@
 
   &__active {
     color: $white;
-    font-weight: 700;
+    font-family: 'bentonsansbold';
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none;

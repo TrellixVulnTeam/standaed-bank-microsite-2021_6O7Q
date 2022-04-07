@@ -50,51 +50,45 @@ a {
   user-select: none; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/BentonSans-Regular.otf");
-  font-weight: 400;
+  font-family: 'bentonsansblack';
+  src: url("../fonts/bentonsans-black-webfont.woff2") format("woff2"), url("../fonts/bentonsans-black-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/bentonsans-regular-webfont.woff");
-  font-weight: 400;
+  font-family: 'bentonsansbold';
+  src: url("../fonts/bentonsans-bold-webfont.woff2") format("woff2"), url("../fonts/bentonsans-bold-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/BentonSansCond-Light.otf");
-  font-weight: 100;
+  font-family: 'bentonsansbook';
+  src: url("../fonts/bentonsans-book-webfont.woff2") format("woff2"), url("../fonts/bentonsans-book-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/bentonsanscond-light-webfont.woff");
-  font-weight: 100;
+  font-family: 'bentonsansextra_light';
+  src: url("../fonts/bentonsans-extralight-webfont.woff2") format("woff2"), url("../fonts/bentonsans-extralight-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/BentonSans-Bold.otf");
-  font-weight: 700;
+  font-family: 'bentonsansmedium';
+  src: url("../fonts/bentonsans-medium-webfont.woff2") format("woff2"), url("../fonts/bentonsans-medium-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/bentonsans_bold-webfont.woff");
-  font-weight: 700;
+  font-family: 'bentonsansregular';
+  src: url("../fonts/bentonsans-regular-webfont.woff2") format("woff2"), url("../fonts/bentonsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/BentonSans-Black.otf");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: "BentonSans";
-  src: url("../fonts/bentonsans_black-webfont.woff");
-  font-weight: 900;
+  font-family: 'bentonsansthin';
+  src: url("../fonts/bentonsans-thin-webfont.woff2") format("woff2"), url("../fonts/bentonsans-thin-webfont.woff") format("woff");
+  font-weight: normal;
   font-style: normal; }
 
 body {
@@ -104,24 +98,13 @@ body {
   line-height: 1.7;
   color: #777; }
 
-.section__number {
-  color: #000;
-  font-size: 10rem;
-  line-height: 10.1rem;
-  font-weight: 100;
-  margin-bottom: 3rem; }
-  @media only screen and (max-width: 43.7em) {
-    .section__number {
-      margin-bottom: 1.5rem;
-      font-size: 4rem;
-      line-height: 5.5rem; } }
-
 .section__title {
   color: #000;
-  font-size: 6rem;
-  line-height: 6.6rem;
-  font-weight: 400;
-  margin-bottom: 3rem; }
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+  text-transform: uppercase; }
   @media only screen and (max-width: 43.7em) {
     .section__title {
       margin-bottom: 1.5rem;
@@ -246,73 +229,31 @@ body {
 
 .button, .button:link, .button:visited, .button:focus {
   position: relative;
-  display: inline-block;
-  background-color: #002f9e;
+  display: flex;
+  align-items: center;
+  background-color: #0A2240;
+  background-image: linear-gradient(90deg, #0A2240 0%, #173A66 100%);
+  border-radius: 10px;
   color: #fff;
   border: none;
   text-decoration: none;
   padding: 1rem 2.5rem;
   font-size: 2.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'bentonsansregular';
   cursor: pointer;
-  clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
   width: 30rem;
   transition: color 300ms ease-in-out; }
   @media only screen and (max-width: 43.7em) {
     .button, .button:link, .button:visited, .button:focus {
       font-size: 1.8rem; } }
 
-.button--long30 {
-  width: 30% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
+.button__main-button {
+  background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%) !important; }
 
-.button--long35 {
-  width: 35% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long50 {
-  width: 50% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long65 {
-  width: 65% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long75 {
-  width: 75% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long90 {
-  width: 90% !important;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long100b {
-  width: 110% !important;
-  clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long85b {
-  width: 85% !important;
-  clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-  font-weight: 700 !important; }
-
-.button--long100 {
+.button--downloads {
   width: 100% !important;
-  clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%) !important;
-  font-weight: 400 !important; }
-
-.button--blue-light {
-  background-color: #00c1ff !important; }
-
-.button--6-tablet {
-  display: none !important; }
+  min-height: 7.8rem;
+  vertical-align: baseline; }
 
 .button-icon {
   position: absolute;
@@ -321,51 +262,6 @@ body {
     .button-icon {
       height: 2.3rem;
       right: 20px; } }
-
-.button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  background-color: #00c1ff;
-  transition: transform 300ms ease-in-out;
-  transform: scaleX(0);
-  transform-origin: left; }
-  @media only screen and (max-width: 43.7em) {
-    .button::before {
-      visibility: hidden; } }
-
-.button:hover::before {
-  transform: scaleX(1);
-  backface-visibility: hidden; }
-  @media only screen and (max-width: 43.7em) {
-    .button:hover::before {
-      height: 2.3rem;
-      right: 20px; } }
-
-.button-0::before {
-  background-color: #002f9e; }
-
-.button--1::before {
-  background-color: #00c1ff; }
-
-.button--2::before {
-  background-color: #00ae43; }
-
-.button--3::before {
-  background-color: #c0b800; }
-
-.button--4::before {
-  background-color: #ffb71e; }
-
-.button--5::before {
-  background-color: #a80050; }
-
-.button--6::before {
-  background-color: #af50c5; }
 
 .arrow-button {
   display: flex;
@@ -596,8 +492,8 @@ body {
     border-radius: 99px;
     margin: 0 1.2rem; }
   .navbar-title__text, .title__text {
+    font-family: 'bentonsansbook';
     color: #fff;
-    font-weight: 400;
     font-size: 2.4rem;
     line-height: 2.8rem; }
 
@@ -613,7 +509,7 @@ body {
   margin-right: 4rem; }
   .navbar-language__text {
     color: #fff;
-    font-weight: 100;
+    font-family: 'bentonsansbook';
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none; }
@@ -621,7 +517,7 @@ body {
     opacity: 0.5; }
   .navbar-language__active {
     color: #fff;
-    font-weight: 700;
+    font-family: 'bentonsansbold';
     font-size: 2.4rem;
     line-height: 2.8rem;
     text-decoration: none;
