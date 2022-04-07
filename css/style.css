@@ -734,12 +734,12 @@ body {
       font-weight: 400;
       font-size: 2.1rem;
       line-height: 2.8rem;
-      width: 40%; }
+      width: 40vw; }
     .navbar .hamburguer-icon {
       margin-left: 3.8rem; }
     .navbar .navbar-controllers {
-      width: 40%;
-      justify-content: end; }
+      width: 40vw;
+      justify-content: right; }
     .navbar .navbar-language {
       margin-right: 0rem; }
       .navbar .navbar-language__text {
