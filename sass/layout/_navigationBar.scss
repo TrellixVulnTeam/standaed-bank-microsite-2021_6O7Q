@@ -9,6 +9,10 @@
   z-index: 3000000000000;
   text-align: center;
 
+  @include respond(phone) {
+    position: fixed;
+  }
+
 
   &__container {
     display: flex;
