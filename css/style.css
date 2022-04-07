@@ -104,13 +104,24 @@ body {
   line-height: 1.7;
   color: #777; }
 
+.section__number {
+  color: #000;
+  font-size: 10rem;
+  line-height: 10.1rem;
+  font-weight: 100;
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 43.7em) {
+    .section__number {
+      margin-bottom: 1.5rem;
+      font-size: 4rem;
+      line-height: 5.5rem; } }
+
 .section__title {
   color: #000;
-  font-size: 5rem;
-  line-height: 6rem;
-  font-weight: 900;
-  margin-bottom: 3rem;
-  text-transform: uppercase; }
+  font-size: 6rem;
+  line-height: 6.6rem;
+  font-weight: 400;
+  margin-bottom: 3rem; }
   @media only screen and (max-width: 43.7em) {
     .section__title {
       margin-bottom: 1.5rem;
@@ -651,47 +662,118 @@ body {
   color: #00A9E0 !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-  .navbar__content {
-    padding-right: 10px;
-    padding-left: 10px; }
-  .navbar__relatorio-contas {
-    height: 5rem; }
-  .navbar__button {
-    width: 10rem;
-    border: none;
-    transform: skew(0deg);
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .navbar__button--icon {
-    top: unset;
-    left: unset;
-    transform: skew(0deg); } }
+  .navbar {
+    height: 10rem; }
+    .navbar__container {
+      padding-left: 0rem;
+      padding-right: 0rem; }
+    .navbar__relatorio-contas {
+      height: 4rem;
+      padding-left: 0; }
+    .navbar .navbar-title__text, .navbar .title__text {
+      text-align: left;
+      color: #fff;
+      font-weight: 400;
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+      width: 40%; }
+    .navbar .hamburguer-icon {
+      margin-left: 3.8rem; }
+    .navbar .navbar-controllers {
+      width: 40%;
+      justify-content: end; }
+    .navbar .navbar-language {
+      margin-right: 0rem; }
+      .navbar .navbar-language__text {
+        color: #fff;
+        font-weight: 100;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        text-decoration: none; }
+      .navbar .navbar-language__text:hover {
+        opacity: 0.5; }
+      .navbar .navbar-language__active {
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+        text-decoration: none;
+        border-bottom: 0.2rem solid white;
+        padding-bottom: 3px;
+        margin-right: 0rem; }
+    .navbar__logo {
+      height: 5rem; }
+    .navbar__buttons {
+      margin-right: 0px; }
+    .navbar__button {
+      width: 6rem;
+      border: none;
+      transform: skew(0deg);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .navbar__button--icon {
+      top: unset;
+      left: unset;
+      transform: skew(0deg); }
+  .navbar-downloads:hover {
+    opacity: 1; } }
 
 @media only screen and (max-width: 43.7em) {
-  .navbar__diagonal {
-    width: 50vw; }
-  .navbar__content {
-    padding: 0px;
-    width: 43%; }
-  .navbar__relatorio-contas {
-    height: 4rem;
-    padding-left: 0; }
-  .navbar__logo {
-    height: 5rem; }
-  .navbar__buttons {
-    margin-right: 0px; }
-  .navbar__button {
-    width: 6rem;
-    border: none;
-    transform: skew(0deg);
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .navbar__button--icon {
-    top: unset;
-    left: unset;
-    transform: skew(0deg); } }
+  .navbar {
+    height: 10rem; }
+    .navbar__container {
+      padding-left: 0rem;
+      padding-right: 0rem; }
+    .navbar__relatorio-contas {
+      height: 4rem;
+      padding-left: 0; }
+    .navbar .navbar-title__text, .navbar .title__text {
+      text-align: left;
+      color: #fff;
+      font-weight: 400;
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+      width: 40%; }
+    .navbar .hamburguer-icon {
+      margin-left: 3.8rem; }
+    .navbar .navbar-controllers {
+      width: 40%;
+      justify-content: end; }
+    .navbar .navbar-language {
+      margin-right: 0rem; }
+      .navbar .navbar-language__text {
+        color: #fff;
+        font-weight: 100;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        text-decoration: none; }
+      .navbar .navbar-language__text:hover {
+        opacity: 0.5; }
+      .navbar .navbar-language__active {
+        color: #fff;
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 2.4rem;
+        text-decoration: none;
+        border-bottom: 0.2rem solid white;
+        padding-bottom: 3px;
+        margin-right: 0rem; }
+    .navbar__logo {
+      height: 5rem; }
+    .navbar__buttons {
+      margin-right: 0px; }
+    .navbar__button {
+      width: 6rem;
+      border: none;
+      transform: skew(0deg);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .navbar__button--icon {
+      top: unset;
+      left: unset;
+      transform: skew(0deg); } }
 
 .menu-open {
   position: fixed;

@@ -26,6 +26,7 @@
   </head>
   <body class="stop-scrolling">
 
+    <!-- ------- Navbar - Desktop - Start ------- -->
     <nav class="navbar on-desktop">
       <div class="navbar__container">
         <div class="navbar-title title">
@@ -55,90 +56,12 @@
               <div class="hamburguer-icon__bar"></div>
               <div class="hamburguer-icon__bar hamburguer-icon__last"></div>
             </div>
-            <!-- <img
-            src="img/hamburguer.svg"
-            alt="Relatório de contas - Logotipo"
-            class="navbar-downloads__hamburguer active-button"
-            /> -->
             </a>
           </div>
         </div>
-
-
-
-
       </div>
-      <!-- <div class="navbar__diagonal">
-        <img
-          src="img/relatorioContas.svg"
-          alt="Relatório de contas"
-          class="navbar__relatorio-contas"
-          />
-      </div> -->
-      <!-- <div class="navbar__content">
-        <img src="img/logo.svg" alt="Logo" class="navbar__logo" />
-        <div class="navbar__buttons">
-          <a
-            href="en/index.html"
-            rel="noreferrer"
-            class="navbar__button navbar__button--1"
-            >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20.128" height="11.84" viewBox="0 0 20.128 11.84" class="navbar__button--icon">
-              <path class="cls-1" id="Path_643" data-name="Path 643" d="M1.216,0H9.568V-2.112H3.824V-5.056H7.776V-7.12H3.824V-9.664H9.28V-11.84H1.216ZM11.344,0h2.4V-7.616h.032L18.944,0h2.4V-11.84h-2.4v7.552h-.032l-4.96-7.552H11.344Z" transform="translate(-1.216 11.84)" fill="#002f9e"/>
-            </svg>
-            <p class="navbar__button--title">Idioma</p>
-          </a>
-          <a
-            href="javascript:void(0);"
-            class="navbar__button navbar__button--2"
-            onclick="menuFunction()"
-            >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20.067"
-              height="14.333"
-              viewBox="0 0 20.067 14.333"
-              class="navbar__button--icon"
-              >
-              <defs>
-                <style>
-                  .cls-1 {
-                  fill: #002f9e;
-                  }
-                </style>
-              </defs>
-              <g id="Group_353" data-name="Group 353" transform="translate(0)">
-                <rect
-                  id="Rectangle_126"
-                  data-name="Rectangle 126"
-                  class="cls-1"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0)"
-                  />
-                <rect
-                  id="Rectangle_127"
-                  data-name="Rectangle 127"
-                  class="cls-1"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0 5.733)"
-                  />
-                <rect
-                  id="Rectangle_128"
-                  data-name="Rectangle 128"
-                  class="cls-1"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0 11.467)"
-                  />
-              </g>
-            </svg>
-            <p class="navbar__button--title">Downloads</p>
-          </a>
-        </div>
-      </div> -->
     </nav>
+    
 
 
     <div id="downloads" class="menu-open">
@@ -187,78 +110,47 @@
           ><b>06</b> | Demonstrações Financeiras e Notas</a>
       </div>
     </div>
+
+    <!-- ------- Navbar - Mobile - Start ------- -->
     <nav class="navbar on-tablet on-phone">
-      <div class="navbar__diagonal">
+      <!-- <div class="navbar__diagonal">
         <img
           src="img/relatorioContas.svg"
           alt="Relatório de contas"
           class="navbar__relatorio-contas"
           />
-      </div>
-      <div class="navbar__content">
+      </div> -->
+      <div class="navbar__container">
+        <h3 class="title__text">Relatório & Contas<br>2021</h3>
         <img src="img/logoTablet.svg" alt="Logo" class="navbar__logo" />
-        <div class="navbar__buttons">
-          <a
-            href="en/index.html"
-            rel="noreferrer"
-            class="navbar__button navbar__button--1"
+        <div class="navbar-controllers">
+          <div class="navbar-language">
+            <a href="" class="navbar-language__text navbar-language__active">PT</a>
+            <!-- <a href="https://www.w3schools.com/" class="navbar-language__text">EN</a>  -->
+          </div>
+          <div class="navbar-downloads">
+            <a
+            href="javascript:void(0);"
+            class="download-button"
+            onclick="menuFunction()"
             >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20.128" height="11.84" viewBox="0 0 20.128 11.84" class="navbar__button--icon">
-              <path id="Path_643" data-name="Path 643" d="M1.216,0H9.568V-2.112H3.824V-5.056H7.776V-7.12H3.824V-9.664H9.28V-11.84H1.216ZM11.344,0h2.4V-7.616h.032L18.944,0h2.4V-11.84h-2.4v7.552h-.032l-4.96-7.552H11.344Z" transform="translate(-1.216 11.84)" fill="#002f9e"/>
-            </svg>
-          </a>
-          <a href="javascript:void(0);" class="navbar__button navbar__button--2 navbar__button--2-mobile" onclick="menuFunction()">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20.067"
-              height="14.333"
-              viewBox="0 0 20.067 14.333"
-              class="navbar__button--icon"
-              >
-              <defs>
-                <style>
-                  .cls-1m {
-                  fill: #002f9e;
-                  }
-                </style>
-              </defs>
-              <g id="Group_353" data-name="Group 353" transform="translate(0)">
-                <rect
-                  id="Rectangle_126"
-                  data-name="Rectangle 126"
-                  class="cls-1m"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0)"
-                  />
-                <rect
-                  id="Rectangle_127"
-                  data-name="Rectangle 127"
-                  class="cls-1m"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0 5.733)"
-                  />
-                <rect
-                  id="Rectangle_128"
-                  data-name="Rectangle 128"
-                  class="cls-1m"
-                  width="20.067"
-                  height="2.867"
-                  transform="translate(0 11.467)"
-                  />
-              </g>
-            </svg>
-          </a>
+            <div class="hamburguer-icon">
+              <div class="hamburguer-icon__bar"></div>
+              <div class="hamburguer-icon__bar"></div>
+              <div class="hamburguer-icon__bar hamburguer-icon__last"></div>
+            </div>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
+      <!-- ------- Navbar - Mobile - End ------- -->
+    
     <section id="01" class="section section--1 on-desktop on-tablet">
       <header class="section__header section__header--big section__header--tablet">
-        <div class="arrow-button">
-          <p class="arrow-button__title">Próximo</p>
-          <a href="#02" class="arrow-button__icon"></a>
-        </div>
+        <a href="#02" class="arrow-button">
+          <img src="img/proximo.svg" alt="Botão próximo">
+        </a>
       </header>
       <div class="wrapper">
         <div class="container u-margin-top-huge u-margin-bottom-big">
@@ -270,14 +162,17 @@
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             >
+            <h3 class="section__number text-blue-lighter">01</h3>
             <h1 class="section__title text-blue-lighter">
-              Juntos, Inovamos o futuro em Angola!
+              A construir o futuro de Africa!
             </h1>
             <h3 class="section__subtitle">
-              Ambicionamos Ser líderes em Angola e África
+              O SBA ambiciona ser Líder em Angola e África
             </h3>
             <p class="section__text">
-              Todos conhecemos os desafios que o ano de 2020 nos colocou. Novos hábitos, novos comportamentos, novas formas de estar e agir. Surgiu assim, em todo o mundo, um novo normal que exigiu uma resposta clara, objectiva e forte da parte de todos nós. No Standard Bank de Angola, acreditamos sempre ser tão importante o “que fazemos” e “como fazemos”. Mais do que olharmos para a componente financeira, focamo-nos em trabalhar activamente para o progresso do nosso país.
+              Apesar do contexto desafiante vivido ao longo do ano de 2021, o Standard Bank de Angola continua a ser reconhecido como uma Instituição Financeira de confiança, sustentável e com um papel relevante no progresso e inclusão financeira de Angola.<br>
+              A constante adaptação aos desafios emergentes e procura pela optimização do desempenho operacional, colocando o Cliente no centro de tudo, posiciona o Banco com um serviço de excelência.
+              
             </p>
             <a
               href="assets/Cap1_Introducao.pdf"
@@ -288,16 +183,7 @@
               >
           </div>
           <div class="container__right container__right--1">
-            <h3
-              class="section-number section-number--1"
-              data-aos="fade-left"
-              data-aos-anchor=".section--1"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              >
-              01
-            </h3>
+            <p>hjhgjhg</p>
           </div>
         </div>
         <div class="arrow-button u-margin-top-huge arrow-next-tablet shake-arrow-bottom">
@@ -335,6 +221,7 @@
         </div>
       </div>
     </section>
+
     <section id="02" class="section section--2 on-desktop">
       <header class="section__header">
         <div class="arrow-button">
