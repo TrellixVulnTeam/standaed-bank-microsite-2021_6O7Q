@@ -681,7 +681,7 @@ body {
       margin-left: 3.8rem; }
     .navbar .navbar-controllers {
       width: 40%;
-      justify-content: end; }
+      justify-content: flex-end; }
     .navbar .navbar-language {
       margin-right: 0rem; }
       .navbar .navbar-language__text {
