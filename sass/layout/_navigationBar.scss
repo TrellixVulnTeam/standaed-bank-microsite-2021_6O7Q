@@ -319,7 +319,7 @@ opacity: 0.5;
     }
 
     &__logo {
-      height: 5rem;
+      height: 6.9rem;
     }
 
     &__buttons {
@@ -349,6 +349,7 @@ opacity: 0.5;
 @include respond(phone) {
   .navbar {
     height: 10rem;
+
 
     &__container {
       padding-left: 0rem;
@@ -408,7 +409,7 @@ opacity: 0.5;
     }
 
     &__logo {
-      height: 5rem;
+      height: 6.9rem;
     }
 
     &__buttons {
