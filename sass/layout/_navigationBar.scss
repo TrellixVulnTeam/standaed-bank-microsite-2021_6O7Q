@@ -161,7 +161,7 @@
   }
 
   &__text {
-    font-family: 'bentonsansbook';
+    font-family: $font-book;
     color: $white;
     font-size: 2.4rem;
     line-height: 2.8rem;
@@ -446,7 +446,7 @@ opacity: 0.5;
   height: 100%;
   width: 50%;
   background-color: $white;
-  bottom: 0;
+  top: 10rem;
   right: 0;
   visibility: hidden;
   z-index: 5000;
