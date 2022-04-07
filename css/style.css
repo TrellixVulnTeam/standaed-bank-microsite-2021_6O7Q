@@ -682,13 +682,14 @@ body {
   height: 100%;
   width: 50%;
   background-color: #fff;
-  top: 10rem;
+  bottom: 0;
   right: 0;
   visibility: hidden;
   z-index: 5000;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: flex-start;
+  padding-top: 14rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .menu-open {
       width: 100%;

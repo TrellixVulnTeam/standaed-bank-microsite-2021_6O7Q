@@ -446,13 +446,14 @@ opacity: 0.5;
   height: 100%;
   width: 50%;
   background-color: $white;
-  top: 10rem;
+  bottom: 0;
   right: 0;
   visibility: hidden;
   z-index: 5000;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 14rem;
   @include respond(tab-port) {
     width: 100%;
     bottom: 0;
