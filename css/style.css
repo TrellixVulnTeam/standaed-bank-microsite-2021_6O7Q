@@ -256,6 +256,9 @@ body {
   width: 100% !important;
   min-height: 7.8rem;
   vertical-align: baseline; }
+  @media only screen and (max-width: 43.7em) {
+    .button--downloads {
+      min-height: 6rem; } }
 
 .button-icon {
   position: absolute;
@@ -694,7 +697,7 @@ body {
     .menu-open {
       width: 100%;
       bottom: 0;
-      z-index: 5000000000000; } }
+      z-index: 90000000000000000000000000; } }
   @media only screen and (max-width: 43.7em) {
     .menu-open {
       width: 100%;

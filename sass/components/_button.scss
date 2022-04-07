@@ -104,6 +104,9 @@
   width: 100% !important;
   min-height: 7.8rem;
   vertical-align: baseline;
+  @include respond(phone) {
+    min-height: 6rem;
+  }
 }
 
 
