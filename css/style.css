@@ -250,7 +250,28 @@ body {
   background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%) !important; }
 
 .button__main-button:hover {
-  background-image: linear-gradient(90deg, red 0%, yellow 100%) !important; }
+  opacity: 0.8; }
+
+.button__cap1, .button__cap2, .button__cap3, .button__cap4, .button__cap5, .button__cap6 {
+  background-image: linear-gradient(90deg, #0A2240 0%, #173A66 100%) !important; }
+
+.button__cap1:hover {
+  background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%) !important; }
+
+.button__cap2:hover {
+  background-image: linear-gradient(90deg, #EB9006 0%, #FFB81D 100%) !important; }
+
+.button__cap3:hover {
+  background-image: linear-gradient(90deg, #1C8321 0%, #4DAA51 100%) !important; }
+
+.button__cap4:hover {
+  background-image: linear-gradient(90deg, #959B03 0%, #B5BD00 100%) !important; }
+
+.button__cap5:hover {
+  background-image: linear-gradient(90deg, #C1844C 0%, #E7B78A 100%) !important; }
+
+.button__cap6:hover {
+  background-image: linear-gradient(90deg, #BB480F 0%, #FF681D 100%) !important; }
 
 .button--downloads {
   width: 100% !important;
