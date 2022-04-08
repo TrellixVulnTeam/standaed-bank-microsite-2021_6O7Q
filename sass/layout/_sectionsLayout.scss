@@ -31,30 +31,30 @@
     min-height: auto;
   }
 
-  &--1 {
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(#000f33, 0.8),
-        rgba($blue-default, 0)
-      ),
-      url(../img/firstSectionBg.png);
-    @include respond(tab-port) {
-      background-image: linear-gradient(
-          to right bottom,
-          rgba(#000f33, 0.8),
-          rgba($blue-default, 0)
-        ),
-        url(../img/firstSectionBgTablet.jpg);
-    }
-    @include respond(phone) {
-      background-image: linear-gradient(
-          to right bottom,
-          rgba(#000f33, 0.8),
-          rgba($blue-default, 0)
-        ),
-        url(../img/firstSectionBgMobile.jpg);
-    }
-  }
+  // &--1 {
+  //   background-image: linear-gradient(
+  //       to right bottom,
+  //       rgba(#000f33, 0.8),
+  //       rgba($blue-default, 0)
+  //     ),
+  //     url(../img/firstSectionBg.png);
+  //   @include respond(tab-port) {
+  //     background-image: linear-gradient(
+  //         to right bottom,
+  //         rgba(#000f33, 0.8),
+  //         rgba($blue-default, 0)
+  //       ),
+  //       url(../img/firstSectionBgTablet.jpg);
+  //   }
+  //   @include respond(phone) {
+  //     background-image: linear-gradient(
+  //         to right bottom,
+  //         rgba(#000f33, 0.8),
+  //         rgba($blue-default, 0)
+  //       ),
+  //       url(../img/firstSectionBgMobile.jpg);
+  //   }
+  // }
   &--2,
   &--4,
   &--4-1,
@@ -163,7 +163,6 @@
     position: relative;
   }
   &__left {
-    &--1,
     &--2,
     &--4-1,
     &--4-2,
@@ -186,7 +185,6 @@
     }
   }
   &__right {
-    &--1,
     &--2,
     &--4-1,
     &--4-2,

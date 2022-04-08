@@ -1,0 +1,107 @@
+.section {
+  &--1 {
+    background-image: url(../img/section1-background.svg);
+    // @include respond(tab-port) {
+    //   background-image: linear-gradient(
+    //       to right bottom,
+    //       rgba(#000f33, 0.8),
+    //       rgba($blue-default, 0)
+    //     ),
+    //     url(../img/firstSectionBgTablet.jpg);
+    // }
+    // @include respond(phone) {
+    //   background-image: linear-gradient(
+    //       to right bottom,
+    //       rgba(#000f33, 0.8),
+    //       rgba($blue-default, 0)
+    //     ),
+    //     url(../img/firstSectionBgMobile.jpg);
+    // }
+  }
+}
+
+.wrapper1 {
+  // margin-right: auto;
+  margin-left: 7vw;
+  max-width: 93vw;
+  // padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  position: relative;
+  // background-color: red;
+  align-content: flex-end;
+}
+
+.container1 {
+  // background-color: green;
+  display: flex;
+  // position: relative;
+  width: 100%;
+  height: 100%;
+  @include respond(phone) {
+    align-items: center;
+  }
+  &__left {
+    &--1 {
+      flex: 5;
+      align-self: center;
+      @include respond(tab-port) {
+        flex: 9;
+      }
+    }
+  }
+
+  &__right {
+    &--1 {
+      align-self: flex-end;
+      flex: 7;
+      // position: relative;
+      @include respond(tab-port) {
+        flex: 3;
+      }
+    }
+  }
+}
+
+.section1-text {
+  &__number {
+    font-family: $font-extraLight;
+    color: $azul-claro;
+    font-size: 10rem;
+    line-height: 10.1rem;
+    margin-bottom: 4rem;
+  }
+  &__title {
+    font-family: $font-book;
+    color: $azul-claro;
+    font-size: 6rem;
+    line-height: 6.6rem;
+    margin-bottom: 5rem;
+  }
+  &__subtitle {
+    font-family: $font-bold;
+    color: $white;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 5rem;
+  }
+  &__text {
+    font-family: $font-book;
+    color: $white;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.section1-button {
+
+}
+
+.section1-photo {
+  position: relative;
+  bottom: -10px;
+  width: 100%;
+}
