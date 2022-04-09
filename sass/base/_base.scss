@@ -19,6 +19,11 @@ html {
   //   font-size: 47.6190476%;
   // }
 
+  @include respond(tab-port) {
+    // width < 1025?
+    font-size: 62.5%;
+  }
+
   @include respond(phone) {
     // width < 1025?
     font-size: 62.5%;
