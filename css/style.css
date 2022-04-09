@@ -25,9 +25,6 @@ ORDER: Base + typography > general layout + grid > page layout > components
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
-  @media only screen and (max-width: 1600px) {
-    html {
-      font-size: 47.6190476%; } }
 
 body {
   box-sizing: border-box;
@@ -1435,7 +1432,7 @@ body {
     @media only screen and (max-width: 43.7em) {
       .section--1 {
         background-image: url(../img/section1-background-mobile.svg);
-        margin-top: 0;
+        margin-top: 4rem;
         padding-top: 0; } }
 
 .wrapper1 {

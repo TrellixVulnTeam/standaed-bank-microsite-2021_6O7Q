@@ -8,7 +8,7 @@
     }
     @include respond(phone) {
       background-image: url(../img/section1-background-mobile.svg);
-      margin-top: 0;
+      margin-top: 4rem;
       padding-top: 0;
     }
   }
