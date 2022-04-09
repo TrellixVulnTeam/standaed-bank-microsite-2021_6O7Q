@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: right;
   position: relative;
-  // overflow-x: clip;
+  overflow-x: clip;
   @include respond(phone) {
     overflow-x: hidden;
   }
