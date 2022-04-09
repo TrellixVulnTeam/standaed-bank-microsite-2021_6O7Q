@@ -657,7 +657,7 @@ body {
 
 @media only screen and (max-width: 43.7em) {
   .navbar {
-    height: 15rem; }
+    height: 10rem; }
     .navbar__container {
       padding-left: 0rem;
       padding-right: 0rem; }
@@ -668,8 +668,8 @@ body {
       text-align: left;
       color: #fff;
       font-weight: 400;
-      font-size: 2.1rem;
-      line-height: 2.8rem;
+      font-size: 1.4rem;
+      line-height: 1.8rem;
       width: 40vw; }
     .navbar .hamburguer-icon {
       margin-left: 3.8rem; }
@@ -683,16 +683,16 @@ body {
       .navbar .navbar-language__text {
         color: #fff;
         font-weight: 100;
-        font-size: 2.4rem;
-        line-height: 2.8rem;
+        font-size: 1.6rem;
+        line-height: 1.4rem;
         text-decoration: none; }
       .navbar .navbar-language__text:hover {
         opacity: 0.5; }
       .navbar .navbar-language__active {
         color: #fff;
         font-weight: 700;
-        font-size: 2.1rem;
-        line-height: 2.4rem;
+        font-size: 1.6rem;
+        line-height: 1.4rem;
         text-decoration: none;
         border-bottom: 0.2rem solid white;
         padding-bottom: 3px;
