@@ -294,7 +294,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 3rem;
-  z-index: 100000000000000000;
+  z-index: 5000;
   transition: 0.5s; }
   .arrow-button__title {
     color: #fff;
@@ -411,6 +411,22 @@ body {
     display: none !important; }
   .button--6-tablet {
     display: block !important; } }
+
+.section-button, .section-button:link, .section-button:visited, .section-button:focus {
+  background-color: #0A2240;
+  background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%);
+  border-radius: 99px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  padding: 2.2rem 4.5rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-family: "bentonsansbold";
+  cursor: pointer; }
+  @media only screen and (max-width: 43.7em) {
+    .section-button, .section-button:link, .section-button:visited, .section-button:focus {
+      font-size: 1.8rem; } }
 
 .section01 {
   background-image: linear-gradient(to right bottom, rgba(0, 15, 51, 0.8), rgba(0, 47, 158, 0)), url(../img/firstSectionBg.jpg); }
@@ -1420,10 +1436,22 @@ body {
   max-width: 93vw;
   padding-left: 20px;
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: flex-end;
   position: relative;
   align-content: flex-end; }
+
+.content1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start; }
+
+.header1 {
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem; }
 
 .container1 {
   display: flex;
@@ -1434,7 +1462,7 @@ body {
       align-items: center; } }
   .container1__left--1 {
     flex: 5;
-    align-self: center; }
+    align-self: flex-start; }
     @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
       .container1__left--1 {
         flex: 9; } }

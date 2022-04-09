@@ -27,11 +27,26 @@
   // padding-right: 20px;
   padding-left: 20px;
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: flex-end;
   position: relative;
   // background-color: red;
   align-content: flex-end;
+}
+
+.content1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.header1 {
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+  // background-color: hotpink;
 }
 
 .container1 {
@@ -46,7 +61,7 @@
   &__left {
     &--1 {
       flex: 5;
-      align-self: center;
+      align-self: flex-start;
       @include respond(tab-port) {
         flex: 9;
       }
