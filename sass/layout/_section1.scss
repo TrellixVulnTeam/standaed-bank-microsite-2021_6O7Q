@@ -9,14 +9,12 @@
     //     ),
     //     url(../img/firstSectionBgTablet.jpg);
     // }
-    // @include respond(phone) {
-    //   background-image: linear-gradient(
-    //       to right bottom,
-    //       rgba(#000f33, 0.8),
-    //       rgba($blue-default, 0)
-    //     ),
-    //     url(../img/firstSectionBgMobile.jpg);
-    // }
+    @include respond(tab-port) {
+      background-image: url(../img/section1-background-mobile.svg);
+    }
+    @include respond(phone) {
+      background-image: url(../img/section1-background-mobile.svg);
+    }
   }
 }
 
@@ -87,6 +85,11 @@
     font-size: 10rem;
     line-height: 10.1rem;
     margin-bottom: 4rem;
+    @include respond(phone) {
+      font-size: 7.5rem !important;
+      line-height: 11.2rem;
+      margin-top: 9rem;
+    }
   }
   &__title {
     font-family: $font-book;
@@ -94,6 +97,11 @@
     font-size: 6rem;
     line-height: 6.6rem;
     margin-bottom: 5rem;
+    @include respond(phone) {
+      font-size: 4.5rem !important;
+      line-height: 6.7rem;
+      margin-bottom: 4.5rem;
+    }
   }
   &__subtitle {
     font-family: $font-bold;
@@ -101,6 +109,9 @@
     font-size: 2.4rem;
     line-height: 3.2rem;
     margin-bottom: 5rem;
+    @include respond(phone) {
+      margin-bottom: 4.5rem;
+    }
   }
   &__text {
     font-family: $font-book;
@@ -108,6 +119,10 @@
     font-size: 2.4rem;
     line-height: 2.8rem;
     margin-bottom: 5rem;
+    @include respond(phone) {
+      line-height: 3.8rem;
+      margin-bottom: 7rem;
+    }
   }
 }
 

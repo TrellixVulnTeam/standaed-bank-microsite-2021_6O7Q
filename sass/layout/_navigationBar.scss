@@ -9,6 +9,7 @@
   z-index: 3000000000000;
   text-align: center;
 
+
   @include respond(phone) {
     position: fixed;
   }
@@ -263,7 +264,7 @@ opacity: 0.5;
 
 @include respond(tab-port) {
   .navbar {
-    height: 10rem;
+    height: 15rem;
 
     &__container {
       padding-left: 0rem;
@@ -352,7 +353,7 @@ opacity: 0.5;
 
 @include respond(phone) {
   .navbar {
-    height: 10rem;
+    height: 15rem;
 
 
     &__container {
