@@ -294,7 +294,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 3rem;
-  z-index: 5000;
+  z-index: 500;
   transition: 0.5s; }
   .arrow-button__title {
     color: #fff;
