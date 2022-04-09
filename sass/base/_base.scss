@@ -10,19 +10,19 @@ html {
   // This defines what 1rem is
   font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
-  // @media only screen and (max-width: 1600px) {
-  //   font-size: 47.6190476%;
-  // }
+  @media only screen and (max-width: 1600px) {
+    font-size: 47.6190476%;
+  }
 
   // @include respond(regular-desktop) {
   //   // width < 1025?
   //   font-size: 47.6190476%;
   // }
 
-  // @include respond(phone) {
-  //   // width < 1025?
-  //   font-size: 41.6666666%;
-  // }
+  @include respond(phone) {
+    // width < 1025?
+    font-size: 62.5%;
+  }
 
 
 
