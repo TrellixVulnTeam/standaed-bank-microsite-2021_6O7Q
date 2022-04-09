@@ -14,15 +14,15 @@ html {
     font-size: 47.6190476%;
   }
 
-  @include respond(regular-desktop) {
-    // width < 1025?
-    font-size: 47.6190476%;
-  }
+  // @include respond(regular-desktop) {
+  //   // width < 1025?
+  //   font-size: 47.6190476%;
+  // }
 
-  @include respond(phone) {
-    // width < 1025?
-    font-size: 41.6666666%;
-  }
+  // @include respond(phone) {
+  //   // width < 1025?
+  //   font-size: 41.6666666%;
+  // }
 
 
 

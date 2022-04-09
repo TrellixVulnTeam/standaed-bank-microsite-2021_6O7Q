@@ -15,11 +15,11 @@
 .section {
   display: none;
   width: 100vw;
-  min-height: 100vh;
+
   background-size: cover;
   background-position: right;
   position: relative;
-  overflow-x: clip;
+  // overflow-x: clip;
   @include respond(phone) {
     overflow-x: hidden;
   }

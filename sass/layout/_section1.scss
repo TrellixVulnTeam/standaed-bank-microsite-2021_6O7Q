@@ -1,14 +1,8 @@
 .section {
+  margin-top: $navbar-desktop-height;
+  padding-top: 8rem;
   &--1 {
     background-image: url(../img/section1-background.svg);
-    // @include respond(tab-port) {
-    //   background-image: linear-gradient(
-    //       to right bottom,
-    //       rgba(#000f33, 0.8),
-    //       rgba($blue-default, 0)
-    //     ),
-    //     url(../img/firstSectionBgTablet.jpg);
-    // }
     @include respond(tab-port) {
       background-image: url(../img/section1-background-mobile.svg);
     }
@@ -26,7 +20,6 @@
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: flex-end;
   position: relative;
   // background-color: red;
