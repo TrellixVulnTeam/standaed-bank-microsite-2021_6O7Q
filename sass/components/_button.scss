@@ -362,20 +362,21 @@
   &,
   &:link,
   &:visited,   &:focus {
-    background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%);
     border-radius: 99px;
+    padding: 1.5rem 4rem;
+    cursor: pointer;
+    width: fit-content;
+
+  }
+  &__link {
+    font-family: $font-bold;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     color: $white;
     border: none;
     text-decoration: none;
-    padding: 1.5rem 4rem;
-    font-size: 1.8rem;
-    line-height: 2.4rem;
-    font-family: $font-bold;
-    cursor: pointer;
-
-    @include respond(phone) {
-      font-size: 2.7rem;
-      padding: 2.7rem 5rem;
-    }
   }
+}
+.section-button:hover {
+  opacity: 0.5;
 }
