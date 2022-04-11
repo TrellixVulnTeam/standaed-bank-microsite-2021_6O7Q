@@ -38,12 +38,12 @@ ORDER: Base + typography > general layout + grid > page layout > components
   //   } //600px
   // }
   @if $breakpoint == min-desktop {
-    @media only screen and (min-width: 81.25em) {
+    @media only screen and (min-width: 56.25em) {
       @content;
     }
   }
   @if $breakpoint == tab-port {
-    @media only screen and (min-width: 43.7em) and (max-width: 81.25em) {
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
       @content;
     } //900px
   }
