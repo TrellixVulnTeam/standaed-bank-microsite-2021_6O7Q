@@ -1581,11 +1581,13 @@ body {
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section--2 {
       background-image: url(../img/section2-background-tablet.svg);
-      padding-top: 0; } }
+      padding-top: 0;
+      margin-bottom: -9rem; } }
   @media only screen and (max-width: 43.7em) {
     .section--2 {
       background-image: url(../img/section2-background-mobile.svg);
-      padding-top: 0; } }
+      padding-top: 0;
+      margin-bottom: -9rem; } }
 
 .wrapper1 {
   margin-left: 7vw;
@@ -1710,6 +1712,12 @@ body {
   right: 6rem;
   width: 100%; }
 
+.section2-photo-tablet {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  justify-self: center; }
+
 .section2-element {
   position: absolute;
   bottom: 0;
@@ -1717,9 +1725,9 @@ body {
   width: 77.6rem; }
 
 .element-image {
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: -10px; }
+  bottom: 8rem; }
 
 .arrows-content {
   display: flex; }

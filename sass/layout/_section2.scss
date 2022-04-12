@@ -4,10 +4,12 @@
     @include respond(tab-port) {
       background-image: url(../img/section2-background-tablet.svg);
       padding-top: 0;
+      margin-bottom: -9rem;
     }
     @include respond(phone) {
       background-image: url(../img/section2-background-mobile.svg);
       padding-top: 0;
+      margin-bottom: -9rem;
     }
   }
 }
@@ -151,6 +153,13 @@
   width: 100%;
 }
 
+.section2-photo-tablet {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  justify-self: center;
+}
+
 .section2-element {
   position: absolute;
   bottom: 0;
@@ -159,9 +168,10 @@
 }
 
 .element-image {
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: -10px;
+  // padding-top: -30px;
+  bottom: 8rem;
 }
 
 
