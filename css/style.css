@@ -442,10 +442,6 @@ body {
 .section04-1 {
   background: linear-gradient(0deg, #fff 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 193, 255, 0.1) 100%); }
 
-.section03 {
-  background: #006cb9;
-  background: linear-gradient(201deg, #006cb9 0%, #000812 100%); }
-
 .section05 {
   background-image: linear-gradient(to right bottom, rgba(0, 15, 51, 0.9), rgba(0, 47, 158, 0.2)), url(../img/section5Bg.jpg); }
 
@@ -838,7 +834,7 @@ body {
   .section--4, .section--4-1, .section--4-2 {
     background-image: url(../img/whiteBg.svg);
     position: relative; }
-  .section--3, .section--4-4, .section--6 {
+  .section--4-4, .section--6 {
     background: #006cb9;
     background: linear-gradient(270deg, #006cb9 0%, #000812 100%); }
   .section--4-3 {
@@ -1712,7 +1708,7 @@ body {
   right: 6rem;
   width: 100%; }
 
-.section2-photo-tablet {
+.section2-photo {
   width: 100%;
   height: 100%; }
 
@@ -1767,6 +1763,141 @@ body {
   bottom: -2rem;
   background-color: #006cb9;
   clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 100%); }
+
+.section--3 {
+  min-height: 100vh;
+  background-image: url(../img/section3-background.svg); }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section--3 {
+      background-image: url(../img/section2-background-tablet.svg);
+      padding-top: 0; } }
+  @media only screen and (max-width: 43.7em) {
+    .section--3 {
+      background-image: url(../img/section2-background-mobile.svg);
+      padding-top: 0; } }
+
+.wrapper1 {
+  margin-left: 7vw;
+  max-width: 93vw;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  align-content: flex-end;
+  overflow: hidden; }
+
+.content3 {
+  display: flex;
+  width: 86vw;
+  justify-content: flex-start; }
+
+.header1 {
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem; }
+
+.container3 {
+  display: flex;
+  width: 100%;
+  height: 100%; }
+  @media only screen and (max-width: 43.7em) {
+    .container3 {
+      align-items: center; } }
+  .container3__left--3 {
+    flex: 2;
+    align-self: flex-end; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container3__left--3 {
+        flex: 9; } }
+  .container3__right--3 {
+    align-self: flex-end;
+    flex: 5; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container3__right--3 {
+        flex: 3; } }
+
+.section3-text__number {
+  font-family: "bentonsansextra_light";
+  color: #4DAA51;
+  font-size: 10rem;
+  line-height: 10.1rem;
+  margin-bottom: 4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section3-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section3-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; } }
+
+.section3-text__title {
+  font-family: "bentonsansbook";
+  color: #4DAA51;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin-bottom: 8rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section3-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section3-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+
+.section3-button {
+  background-image: linear-gradient(90deg, #19811E 0%, #4DAA51 100%);
+  margin-bottom: 0 !important; }
+
+.section3-container {
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 4rem;
+  background-color: hotpink; }
+
+.resultados__title {
+  font-family: "bentonsansbook";
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  margin-bottom: 1.7rem; }
+
+.resultados__number {
+  font-family: "bentonsansbold";
+  color: #fff;
+  font-size: 10rem;
+  line-height: 10.1rem; }
+
+.resultados__description {
+  font-family: "bentonsansbold";
+  color: #fff;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  margin-bottom: 4rem; }
+
+.results-line {
+  width: 32rem;
+  height: 0.2rem;
+  background-image: linear-gradient(90deg, #4DAA51 0%, rgba(77, 170, 81, 0) 104.72%);
+  border-radius: 99px;
+  margin-bottom: 1.7rem; }
+
+.section3-graph-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; }
 
 .resultado-liquido {
   border-left: 0.6rem solid #c0b800;
@@ -2397,8 +2528,9 @@ body {
 
 .circle-bg {
   fill: none;
-  stroke: #006cb9;
-  stroke-width: 3.8; }
+  stroke: #00A9E0;
+  stroke-width: 3.8;
+  opacity: 0.3; }
 
 .circle {
   fill: none;
@@ -2409,14 +2541,17 @@ body {
     stroke-dasharray: 0 100; } }
 
 .circular-chart.blue .circle {
-  stroke: #00c1ff;
+  stroke: #4DAA51;
   animation: progress 0.7s ease-out forwards; }
 
 .percentage {
-  fill: #00c1ff;
+  fill: #fff;
+  font-family: "bentonsansbold";
   font-size: 0.7em;
-  text-anchor: middle;
-  font-weight: 900; }
+  text-anchor: middle; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .percentage {
+      font-size: 1.2em; } }
 
 .percentage-arrow {
   fill: #c0b800; }
@@ -2429,7 +2564,7 @@ body {
 .graph-title {
   text-align: center;
   margin-top: 1rem;
-  color: #00c1ff;
-  font-size: 2.1rem;
-  font-weight: 400;
-  text-transform: uppercase; }
+  color: #fff;
+  font-family: "bentonsansbook";
+  font-size: 2.4rem;
+  line-height: 3.2rem; }

@@ -36,8 +36,9 @@
 
 .circle-bg {
   fill: none;
-  stroke: $blue-medium;
+  stroke: $azul-claro;
   stroke-width: 3.8;
+  opacity: 0.3;
 }
 
 .circle {
@@ -52,15 +53,18 @@
 }
 
 .circular-chart.blue .circle {
-  stroke: $blue-lighter;
+  stroke: $verde;
   animation: progress 0.7s ease-out forwards;
 }
 
 .percentage {
-  fill: $blue-lighter;
+  fill: $white;
+  font-family: $font-bold;
   font-size: 0.7em;
   text-anchor: middle;
-  font-weight: 900;
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 1.2em;
+  }
 }
 
 .percentage-arrow {
@@ -76,15 +80,10 @@
 .graph-title {
   text-align: center;
   margin-top: 1rem;
-  color: $blue-lighter;
-  font-size: 2.1rem;
-  font-weight: 400;
-  text-transform: uppercase;
+  color: $white;
+  font-family: $font-book;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 }
 
-// color: $black;
-// font-size: 5rem;
-// line-height: 6rem;
-// font-weight: 900;
-// margin-bottom: 3rem;
-// text-transform: uppercase;
+
