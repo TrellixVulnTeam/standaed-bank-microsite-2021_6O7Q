@@ -1714,9 +1714,7 @@ body {
 
 .section2-photo-tablet {
   width: 100%;
-  height: auto;
-  align-self: center;
-  justify-self: center; }
+  height: 100%; }
 
 .section2-element {
   position: absolute;
@@ -1725,9 +1723,9 @@ body {
   width: 77.6rem; }
 
 .element-image {
-  position: relative;
+  position: absolute;
   width: 100%;
-  bottom: 8rem; }
+  bottom: -10px; }
 
 .arrows-content {
   display: flex; }
