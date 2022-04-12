@@ -813,6 +813,10 @@ body {
   min-height: 100vh;
   justify-content: center;
   position: relative; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .wrapper {
+      justify-content: flex-start;
+      margin-top: 8rem; } }
 
 .section {
   display: none;
@@ -829,7 +833,7 @@ body {
       overflow-x: hidden; } }
   .section--7 {
     min-height: auto; }
-  .section--2, .section--4, .section--4-1, .section--4-2 {
+  .section--4, .section--4-1, .section--4-2 {
     background-image: url(../img/whiteBg.svg);
     position: relative; }
   .section--3, .section--4-4, .section--6 {
@@ -1301,8 +1305,7 @@ body {
   .wrapper {
     padding-right: 0;
     padding-left: 0;
-    padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-top: 60px; }
   .section-number {
     -webkit-text-fill-color: unset;
     position: relative;
@@ -1577,13 +1580,11 @@ body {
   background-image: url(../img/section2-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section--2 {
-      background-image: url(../img/section1-background-mobile.svg);
-      margin-top: 8rem;
+      background-image: url(../img/section2-background-tablet.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section--2 {
-      background-image: url(../img/section1-background-mobile.svg);
-      margin-top: 4rem;
+      background-image: url(../img/section2-background-mobile.svg);
       padding-top: 0; } }
 
 .wrapper1 {
@@ -1639,7 +1640,7 @@ body {
     .section2-text__number {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: 13rem;
+      margin-top: 3rem;
       margin-bottom: 2rem; } }
   @media only screen and (max-width: 43.7em) {
     .section2-text__number {
@@ -1716,7 +1717,7 @@ body {
   width: 77.6rem; }
 
 .element-image {
-  position: relative;
+  position: absolute;
   width: 100%;
   bottom: -10px; }
 

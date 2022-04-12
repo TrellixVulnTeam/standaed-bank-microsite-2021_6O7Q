@@ -2,13 +2,11 @@
   &--2 {
     background-image: url(../img/section2-background.svg);
     @include respond(tab-port) {
-      background-image: url(../img/section1-background-mobile.svg);
-      margin-top: 8rem;
+      background-image: url(../img/section2-background-tablet.svg);
       padding-top: 0;
     }
     @include respond(phone) {
-      background-image: url(../img/section1-background-mobile.svg);
-      margin-top: 4rem;
+      background-image: url(../img/section2-background-mobile.svg);
       padding-top: 0;
     }
   }
@@ -78,7 +76,7 @@
     @include respond(tab-port) {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: $navbar-desktop-height;
+      margin-top: 3rem;
       margin-bottom: 2rem;
     }
     @include respond(phone) {
@@ -161,7 +159,7 @@
 }
 
 .element-image {
-  position: relative;
+  position: absolute;
   width: 100%;
   bottom: -10px;
 }
