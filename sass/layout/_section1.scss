@@ -80,7 +80,7 @@
     @include respond(tab-port) {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: $navbar-desktop-height;
+      margin-top: 3rem;
       margin-bottom: 2rem;
     }
     @include respond(phone) {

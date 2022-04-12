@@ -10,8 +10,13 @@ html {
   // This defines what 1rem is
   font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
-  @media only screen and (max-width: 1600px) {
-    font-size: 47.6190476%;
+
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    font-size: 46.875%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    font-size: 36.4583333%;
   }
 
   // @include respond(regular-desktop) {
@@ -30,6 +35,12 @@ html {
   }
 
 
+
+  // @if $breakpoint == tab-port {
+  //   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+  //     @content;
+  //   } //900px
+  // }
 
 
   // @include respond(tab-port) {

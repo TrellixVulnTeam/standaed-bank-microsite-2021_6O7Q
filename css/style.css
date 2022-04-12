@@ -25,9 +25,12 @@ ORDER: Base + typography > general layout + grid > page layout > components
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
-  @media only screen and (max-width: 1600px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     html {
-      font-size: 47.6190476%; } }
+      font-size: 46.875%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    html {
+      font-size: 36.4583333%; } }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     html {
       font-size: 62.5%; } }
@@ -1501,7 +1504,7 @@ body {
     .section1-text__number {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: 13rem;
+      margin-top: 3rem;
       margin-bottom: 2rem; } }
   @media only screen and (max-width: 43.7em) {
     .section1-text__number {
@@ -1709,7 +1712,7 @@ body {
 .section2-element {
   position: absolute;
   bottom: 0;
-  right: 24.4rem;
+  right: 15%;
   width: 77.6rem; }
 
 .element-image {
