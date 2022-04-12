@@ -814,7 +814,6 @@ body {
 .section {
   display: none;
   width: 100vw;
-  min-height: 100vh;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -1600,7 +1599,7 @@ body {
   width: 100%;
   justify-content: flex-start; }
 
-.header1 {
+.header2 {
   padding-top: 8rem;
   width: 86vw;
   display: flex;
