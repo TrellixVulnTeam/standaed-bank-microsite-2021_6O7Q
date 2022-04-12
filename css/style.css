@@ -1712,6 +1712,10 @@ body {
   right: 6rem;
   width: 100%; }
 
+.section2-photo {
+  width: 100%;
+  height: 100%; }
+
 .section2-element {
   position: absolute;
   bottom: 0;
