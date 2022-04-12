@@ -24,12 +24,15 @@
   background-position: right;
   position: relative;
   overflow-x: clip;
-  @include respond(phone) {
-    overflow-x: hidden;
-  }
   @include respond(tab-port) {
     overflow-x: hidden;
+    overflow-y: hidden;
   }
+  @include respond(phone) {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
 
   &--7 {
     min-height: auto;
