@@ -1,3 +1,185 @@
+.section {
+  &--2 {
+    background-image: url(../img/section2-background.svg);
+    @include respond(tab-port) {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 8rem;
+      padding-top: 0;
+    }
+    @include respond(phone) {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 4rem;
+      padding-top: 0;
+    }
+  }
+}
+
+.wrapper1 {
+  margin-left: 7vw;
+  max-width: 93vw;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  align-content: flex-end;
+  overflow: hidden;
+}
+
+.content1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.header1 {
+  padding-top: 8rem;
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+}
+
+.container1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  @include respond(phone) {
+    align-items: center;
+  }
+  &__left {
+    &--1 {
+      flex: 5;
+      align-self: flex-start;
+      @include respond(tab-port) {
+        flex: 9;
+      }
+    }
+  }
+
+  &__right {
+    &--1 {
+      align-self: flex-end;
+      flex: 7;
+      @include respond(tab-port) {
+        flex: 3;
+      }
+    }
+  }
+}
+
+.section2-text {
+  &__number {
+    font-family: $font-extraLight;
+    color: $amarelo;
+    font-size: 10rem;
+    line-height: 10.1rem;
+    margin-bottom: 4rem;
+    @include respond(tab-port) {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: $navbar-desktop-height;
+      margin-bottom: 2rem;
+    }
+    @include respond(phone) {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__title {
+    font-family: $font-book;
+    color: $amarelo;
+    font-size: 6rem;
+    line-height: 6.6rem;
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem;
+    }
+  }
+  &__subtitle {
+    font-family: $amarelo;
+    color: $azul-petroleo;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+  &__text {
+    font-family: $font-book;
+    color: $azul-petroleo;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.section2-button {
+  background-image: linear-gradient(90deg, #EA8E04 0%, #FFB81D 100%);
+  margin-bottom: 3rem !important;
+}
+
+.section2-photo {
+  position: relative;
+  bottom: -10px;
+  right: 6rem;
+  width: 100%;
+}
+
+.section2-element {
+  position: absolute;
+  bottom: 0;
+  right: 24.4rem;
+  width: 77.6rem
+}
+
+.element-image {
+  position: relative;
+  width: 100%;
+  bottom: -10px;
+}
+
+
+.arrows-content {
+  display: flex;
+}
+
+.arrow-button2 {
+  color: $azul-petroleo !important;
+}
+
+
+
+
+// -------------------
+
 .image-container {
   position: relative;
 }

@@ -1,7 +1,8 @@
 .section {
-  margin-top: $navbar-desktop-height;
-  padding-top: 8rem;
+
   &--1 {
+    margin-top: $navbar-desktop-height;
+    padding-top: 8rem;
     background-image: url(../img/section1-background.svg);
     @include respond(tab-port) {
       background-image: url(../img/section1-background-mobile.svg);

@@ -814,6 +814,7 @@ body {
 .section {
   display: none;
   width: 100vw;
+  min-height: 100vh;
   background-size: cover;
   background-position: right;
   position: relative;
@@ -1434,21 +1435,20 @@ body {
   60% {
     transform: translateY(15px); } }
 
-.section {
+.section--1 {
   margin-top: 13rem;
-  padding-top: 8rem; }
-  .section--1 {
-    background-image: url(../img/section1-background.svg); }
-    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-      .section--1 {
-        background-image: url(../img/section1-background-mobile.svg);
-        margin-top: 8rem;
-        padding-top: 0; } }
-    @media only screen and (max-width: 43.7em) {
-      .section--1 {
-        background-image: url(../img/section1-background-mobile.svg);
-        margin-top: 4rem;
-        padding-top: 0; } }
+  padding-top: 8rem;
+  background-image: url(../img/section1-background.svg); }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section--1 {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 8rem;
+      padding-top: 0; } }
+  @media only screen and (max-width: 43.7em) {
+    .section--1 {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 4rem;
+      padding-top: 0; } }
 
 .wrapper1 {
   margin-left: 7vw;
@@ -1570,6 +1570,159 @@ body {
   position: relative;
   bottom: -10px;
   width: 100%; }
+
+.section--2 {
+  background-image: url(../img/section2-background.svg); }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section--2 {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 8rem;
+      padding-top: 0; } }
+  @media only screen and (max-width: 43.7em) {
+    .section--2 {
+      background-image: url(../img/section1-background-mobile.svg);
+      margin-top: 4rem;
+      padding-top: 0; } }
+
+.wrapper1 {
+  margin-left: 7vw;
+  max-width: 93vw;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  align-content: flex-end;
+  overflow: hidden; }
+
+.content1 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start; }
+
+.header1 {
+  padding-top: 8rem;
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem; }
+
+.container1 {
+  display: flex;
+  width: 100%;
+  height: 100%; }
+  @media only screen and (max-width: 43.7em) {
+    .container1 {
+      align-items: center; } }
+  .container1__left--1 {
+    flex: 5;
+    align-self: flex-start; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container1__left--1 {
+        flex: 9; } }
+  .container1__right--1 {
+    align-self: flex-end;
+    flex: 7; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container1__right--1 {
+        flex: 3; } }
+
+.section2-text__number {
+  font-family: "bentonsansextra_light";
+  color: #FFB81D;
+  font-size: 10rem;
+  line-height: 10.1rem;
+  margin-bottom: 4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section2-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 13rem;
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section2-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; } }
+
+.section2-text__title {
+  font-family: "bentonsansbook";
+  color: #FFB81D;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section2-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section2-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+
+.section2-text__subtitle {
+  font-family: #FFB81D;
+  color: #0A2240;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section2-text__subtitle {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section2-text__subtitle {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+
+.section2-text__text {
+  font-family: "bentonsansbook";
+  color: #0A2240;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section2-text__text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section2-text__text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+
+.section2-button {
+  background-image: linear-gradient(90deg, #EA8E04 0%, #FFB81D 100%);
+  margin-bottom: 3rem !important; }
+
+.section2-photo {
+  position: relative;
+  bottom: -10px;
+  right: 6rem;
+  width: 100%; }
+
+.section2-element {
+  position: absolute;
+  bottom: 0;
+  right: 24.4rem;
+  width: 77.6rem; }
+
+.element-image {
+  position: relative;
+  width: 100%;
+  bottom: -10px; }
+
+.arrows-content {
+  display: flex; }
+
+.arrow-button2 {
+  color: #0A2240 !important; }
 
 .image-container {
   position: relative; }
