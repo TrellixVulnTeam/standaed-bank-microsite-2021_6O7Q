@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-image: url(../img/section3-background.svg);
     @include respond(tab-port) {
-      background-image: url(../img/section2-background-tablet.svg);
+      background-image: url(../img/section3-background-tablet.svg);
       padding-top: 0;
     }
     @include respond(phone) {
@@ -96,7 +96,7 @@
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem;
+      margin-bottom: 0;
     }
     @include respond(phone) {
       font-size: 3rem;
@@ -109,6 +109,10 @@
 .section3-button {
   background-image: linear-gradient(90deg, #19811E 0%, #4DAA51 100%);
   margin-bottom: 0 !important;
+  @include respond(tab-port){
+    margin-top: 6rem;
+    margin-bottom: 13rem !important;
+  }
 }
 
 
@@ -136,6 +140,11 @@
     font-size: 3.2rem;
     line-height: 3.8rem;
     margin-bottom: 1.7rem;
+    @include respond(tab-port) {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      margin-top: 6rem;
+    }
   }
 
   &__number {
@@ -143,6 +152,10 @@
     color: $white;
     font-size: 10rem;
     line-height: 10.1rem;
+    @include respond(tab-port) {
+      font-size: 8rem;
+      line-height: 9rem;
+    }
   }
 
   &__description {
@@ -150,7 +163,11 @@
     color: $white;
     font-size: 3.2rem;
     line-height: 3.8rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    @include respond(tab-port) {
+      font-size: 2.4rem;
+      line-height: 3rem;
+    }
   }
 }
 

@@ -1505,7 +1505,7 @@ body {
     .section1-text__number {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: 3rem;
+      margin-top: 8rem;
       margin-bottom: 2rem; } }
   @media only screen and (max-width: 43.7em) {
     .section1-text__number {
@@ -1769,7 +1769,7 @@ body {
   background-image: url(../img/section3-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section--3 {
-      background-image: url(../img/section2-background-tablet.svg);
+      background-image: url(../img/section3-background-tablet.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section--3 {
@@ -1847,7 +1847,7 @@ body {
     .section3-text__title {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section3-text__title {
       font-size: 3rem;
@@ -1857,6 +1857,10 @@ body {
 .section3-button {
   background-image: linear-gradient(90deg, #19811E 0%, #4DAA51 100%);
   margin-bottom: 0 !important; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section3-button {
+      margin-top: 6rem;
+      margin-bottom: 13rem !important; } }
 
 .section3-container {
   width: 86vw;
@@ -1872,19 +1876,32 @@ body {
   font-size: 3.2rem;
   line-height: 3.8rem;
   margin-bottom: 1.7rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .resultados__title {
+      font-size: 2.4rem;
+      line-height: 3.6rem;
+      margin-top: 6rem; } }
 
 .resultados__number {
   font-family: "bentonsansbold";
   color: #fff;
   font-size: 10rem;
   line-height: 10.1rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .resultados__number {
+      font-size: 8rem;
+      line-height: 9rem; } }
 
 .resultados__description {
   font-family: "bentonsansbold";
   color: #fff;
   font-size: 3.2rem;
   line-height: 3.8rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 6rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .resultados__description {
+      font-size: 2.4rem;
+      line-height: 3rem; } }
 
 .results-line {
   width: 32rem;
@@ -2513,9 +2530,7 @@ body {
   align-items: center; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .single-chart {
-      gap: 2rem;
-      margin-top: 3rem;
-      margin-bottom: 3rem; } }
+      width: 30%; } }
 
 .circular-chart {
   display: block;
@@ -2552,6 +2567,10 @@ body {
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .percentage {
       font-size: 1.2em; } }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .percentage {
+      width: 30%;
+      font-size: 0.8em; } }
 
 .percentage-arrow {
   fill: #c0b800; }
@@ -2568,3 +2587,7 @@ body {
   font-family: "bentonsansbook";
   font-size: 2.4rem;
   line-height: 3.2rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .graph-title {
+      font-size: 2rem;
+      line-height: 3rem; } }
