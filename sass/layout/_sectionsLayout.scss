@@ -13,6 +13,9 @@
     justify-content: flex-start;
     margin-top: 8rem;
   }
+  @include respond(phone) {
+    justify-content: flex-start;
+  }
 }
 
 // Section defs and Backgrounds

@@ -813,6 +813,9 @@ body {
     .wrapper {
       justify-content: flex-start;
       margin-top: 8rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .wrapper {
+      justify-content: flex-start; } }
 
 .section {
   display: none;
@@ -1511,7 +1514,7 @@ body {
     .section1-text__number {
       font-size: 5rem;
       line-height: 6rem;
-      margin-top: 3rem;
+      margin-top: 6rem;
       margin-bottom: 2rem; } }
 
 .section1-text__title {
@@ -1773,7 +1776,7 @@ body {
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section--3 {
-      background-image: url(../img/section2-background-mobile.svg);
+      background-image: url(../img/section3-background-phone.svg);
       padding-top: 0; } }
 
 .wrapper1 {
@@ -1861,6 +1864,9 @@ body {
     .section3-button {
       margin-top: 6rem;
       margin-bottom: 13rem !important; } }
+  @media only screen and (max-width: 43.7em) {
+    .section3-button {
+      margin-bottom: 5rem !important; } }
 
 .section3-container {
   width: 86vw;
@@ -1881,6 +1887,11 @@ body {
       font-size: 2.4rem;
       line-height: 3.6rem;
       margin-top: 6rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .resultados__title {
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+      line-height: 1.1rem; } }
 
 .resultados__number {
   font-family: "bentonsansbold";
@@ -1891,6 +1902,10 @@ body {
     .resultados__number {
       font-size: 8rem;
       line-height: 9rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .resultados__number {
+      font-size: 3.8rem;
+      line-height: 4rem; } }
 
 .resultados__description {
   font-family: "bentonsansbold";
@@ -1902,6 +1917,11 @@ body {
     .resultados__description {
       font-size: 2.4rem;
       line-height: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .resultados__description {
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+      margin-bottom: 3rem; } }
 
 .results-line {
   width: 32rem;
@@ -1909,12 +1929,23 @@ body {
   background-image: linear-gradient(90deg, #4DAA51 0%, rgba(77, 170, 81, 0) 104.72%);
   border-radius: 99px;
   margin-bottom: 1.7rem; }
+  @media only screen and (max-width: 43.7em) {
+    .results-line {
+      height: 0.4rem;
+      width: 25rem;
+      margin-bottom: 1.3rem; } }
 
 .section3-graph-container {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between; }
+  @media only screen and (max-width: 43.7em) {
+    .section3-graph-container {
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section3-graph-container__last {
+      margin-bottom: 4rem; } }
 
 .resultado-liquido {
   border-left: 0.6rem solid #c0b800;
@@ -2531,6 +2562,14 @@ body {
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .single-chart {
       width: 30%; } }
+  @media only screen and (max-width: 43.7em) {
+    .single-chart {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: row;
+      gap: 2.3rem; } }
 
 .circular-chart {
   display: block;
@@ -2540,6 +2579,10 @@ body {
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .circular-chart {
       max-width: 100%; } }
+  @media only screen and (max-width: 43.7em) {
+    .circular-chart {
+      width: 50%;
+      margin: 0; } }
 
 .circle-bg {
   fill: none;
@@ -2591,3 +2634,19 @@ body {
     .graph-title {
       font-size: 2rem;
       line-height: 3rem; } }
+
+.graficos-numeros {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .graficos-numeros__percentagem {
+    color: #fff;
+    font-family: "bentonsansbold";
+    font-size: 3.8rem;
+    line-height: 4rem; }
+  .graficos-numeros__legenda {
+    width: 100%;
+    color: #fff;
+    font-family: "bentonsansbook";
+    font-size: 2.1rem !important;
+    line-height: 2.8rem; }
