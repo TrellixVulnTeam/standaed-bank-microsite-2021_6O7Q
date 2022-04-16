@@ -14,6 +14,9 @@
 }
 
 .wrapper {
+  @include respond(tab-port) {
+    min-height: 0 !important;
+  }
   @include respond(phone) {
     min-height: 0 !important;
   }
@@ -147,6 +150,9 @@
 } 
 
 .indicators {
+  @include respond(tab-port) {
+    width: 45%;
+  }
   @include respond(phone) {
     width: 45%;
   }
@@ -237,11 +243,14 @@
 
 .button4-1 {
   position: absolute;
-  bottom: 6rem;
+  bottom: 4rem;
 }
 
 .section4-1-button {
   background-image: none;
   background-color: white;
-  margin-left: 2.975rem;
+}
+
+.wrapper-clear {
+  padding-top: 0 !important;
 }

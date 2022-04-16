@@ -2354,6 +2354,10 @@ body {
       background-image: url(../img/section4-1-background-mobile.svg);
       padding-top: 0; } }
 
+@media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+  .wrapper {
+    min-height: 0 !important; } }
+
 @media only screen and (max-width: 43.7em) {
   .wrapper {
     min-height: 0 !important; } }
@@ -2461,6 +2465,10 @@ body {
   justify-content: space-between;
   margin-bottom: 8rem !important; }
 
+@media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+  .indicators {
+    width: 45%; } }
+
 @media only screen and (max-width: 43.7em) {
   .indicators {
     width: 45%; } }
@@ -2537,12 +2545,14 @@ body {
 
 .button4-1 {
   position: absolute;
-  bottom: 6rem; }
+  bottom: 4rem; }
 
 .section4-1-button {
   background-image: none;
-  background-color: white;
-  margin-left: 2.975rem; }
+  background-color: white; }
+
+.wrapper-clear {
+  padding-top: 0 !important; }
 
 .section4-5 {
   width: 100vw;
