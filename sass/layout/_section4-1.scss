@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-image: url(../img/section4-1-background.svg);
     @include respond(tab-port) {
-      background-image: url(../img/section3-background-tablet.svg);
+      background-image: url(../img/section4-1-background-tablet.svg);
       padding-top: 0;
     }
     @include respond(phone) {
@@ -51,7 +51,7 @@
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 0;
+      margin-bottom: 3rem;
     }
     @include respond(phone) {
       font-size: 3rem;
@@ -131,7 +131,8 @@
   margin-bottom: 0 !important;
   @include respond(tab-port){
     margin-top: 6rem;
-    margin-bottom: 13rem !important;
+    margin-bottom: 6rem !important;
+    margin-left: 8rem;
   }
   // @include respond(phone){
   //   margin-bottom: 0 !important;
@@ -234,6 +235,9 @@
 }
 
 .element-container-section4-1 {
+  @include respond(tab-port) {
+    margin-top: -30rem;
+  }
   margin-top: -15rem;
 }
 
@@ -242,8 +246,10 @@
 }
 
 .button4-1 {
+  @include respond(tab-port) {
+  }
   position: absolute;
-  bottom: 4rem;
+  bottom: 5rem;
 }
 
 .section4-1-button {
@@ -252,5 +258,8 @@
 }
 
 .wrapper-clear {
+  @include respond(tab-port) {
+    padding-top: 0 !important;
+  }
   padding-top: 0 !important;
 }
