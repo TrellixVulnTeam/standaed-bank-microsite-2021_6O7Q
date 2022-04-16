@@ -7,7 +7,7 @@
       padding-top: 0;
     }
     @include respond(phone) {
-      background-image: url(../img/section3-background-phone.svg);
+      background-image: url(../img/section4-1-background-mobile.svg);
       padding-top: 0;
     }
   }
@@ -125,7 +125,11 @@
     margin-bottom: 13rem !important;
   }
   @include respond(phone){
-    margin-bottom: 5rem !important;
+    margin-bottom: 0 !important;
+    position: absolute;
+    bottom: 6rem;
+    background-image: none;
+    background-color: $white;
   }
 }
 
@@ -137,10 +141,16 @@
 } 
 
 .indicators {
+  @include respond(phone) {
+    width: 45%;
+  }
   &__icon {
     // width: 100%;
     // height: 100%;
     margin-bottom: 1.4rem;
+    @include respond(phone) {
+      width: 5rem;
+    }
 
   }
 
@@ -149,6 +159,10 @@
     color: $azul-petroleo;
     font-size: 3.2rem;
     line-height: 3.8rem;
+    @include respond(phone) {
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+    }
   }
   
 
@@ -160,8 +174,9 @@
     margin-top: 1.5rem;
     @include respond(phone) {
       height: 0.4rem;
-      width: 25rem;
-      margin-bottom: 1.3rem;
+      width: 100% !important;
+      margin-bottom: 0.9rem;
+      margin-top: 0.9rem;
     }
   }
 
@@ -183,6 +198,25 @@
     color: $azul-petroleo;
     font-size: 4.6rem;
     line-height: 5.4rem;
+    @include respond(phone) {
+      font-size: 2.1rem;
+      line-height: 2.8rem;
+    }
   }
 } 
 
+.wrapper-section4-1 {
+  z-index: 100000;
+}
+
+.container-indicators-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.button-section4-1-color {
+  color: $lima !important;
+}

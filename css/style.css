@@ -2351,7 +2351,7 @@ body {
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section--4-1 {
-      background-image: url(../img/section3-background-phone.svg);
+      background-image: url(../img/section4-1-background-mobile.svg);
       padding-top: 0; } }
 
 .section4-1-text__number {
@@ -2453,21 +2453,36 @@ body {
       margin-bottom: 13rem !important; } }
   @media only screen and (max-width: 43.7em) {
     .section4-1-button {
-      margin-bottom: 5rem !important; } }
+      margin-bottom: 0 !important;
+      position: absolute;
+      bottom: 6rem;
+      background-image: none;
+      background-color: #fff; } }
 
 .container-numbers {
   display: flex;
   justify-content: space-between;
   margin-bottom: 8rem !important; }
 
+@media only screen and (max-width: 43.7em) {
+  .indicators {
+    width: 45%; } }
+
 .indicators__icon {
   margin-bottom: 1.4rem; }
+  @media only screen and (max-width: 43.7em) {
+    .indicators__icon {
+      width: 5rem; } }
 
 .indicators__title {
   font-family: "bentonsansbook";
   color: #0A2240;
   font-size: 3.2rem;
   line-height: 3.8rem; }
+  @media only screen and (max-width: 43.7em) {
+    .indicators__title {
+      font-size: 2.1rem;
+      line-height: 2.8rem; } }
 
 .indicators__line {
   height: 0.4rem;
@@ -2478,8 +2493,9 @@ body {
   @media only screen and (max-width: 43.7em) {
     .indicators__line {
       height: 0.4rem;
-      width: 25rem;
-      margin-bottom: 1.3rem; } }
+      width: 100% !important;
+      margin-bottom: 0.9rem;
+      margin-top: 0.9rem; } }
 
 .indicators__line-1 {
   width: 15.4rem; }
@@ -2498,6 +2514,23 @@ body {
   color: #0A2240;
   font-size: 4.6rem;
   line-height: 5.4rem; }
+  @media only screen and (max-width: 43.7em) {
+    .indicators__number {
+      font-size: 2.1rem;
+      line-height: 2.8rem; } }
+
+.wrapper-section4-1 {
+  z-index: 100000; }
+
+.container-indicators-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem; }
+
+.button-section4-1-color {
+  color: #B5BD00 !important; }
 
 .section4-5 {
   width: 100vw;
