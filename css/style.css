@@ -2354,6 +2354,10 @@ body {
       background-image: url(../img/section4-1-background-mobile.svg);
       padding-top: 0; } }
 
+@media only screen and (max-width: 43.7em) {
+  .wrapper {
+    min-height: 0 !important; } }
+
 .section4-1-text__number {
   font-family: "bentonsansextra_light";
   color: #B5BD00;
@@ -2451,13 +2455,6 @@ body {
     .section4-1-button {
       margin-top: 6rem;
       margin-bottom: 13rem !important; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-1-button {
-      margin-bottom: 0 !important;
-      position: absolute;
-      bottom: 6rem;
-      background-image: none;
-      background-color: #fff; } }
 
 .container-numbers {
   display: flex;
@@ -2531,6 +2528,21 @@ body {
 
 .button-section4-1-color {
   color: #B5BD00 !important; }
+
+.element-container-section4-1 {
+  margin-top: -15rem; }
+
+.element4-1 {
+  width: 50%; }
+
+.button4-1 {
+  position: absolute;
+  bottom: 6rem; }
+
+.section4-1-button {
+  background-image: none;
+  background-color: white;
+  margin-left: 2.975rem; }
 
 .section4-5 {
   width: 100vw;
