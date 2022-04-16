@@ -3,10 +3,10 @@ const slider = function () {
   const btnLeft = document.querySelector(".slider__btn--left");
   const btnRight = document.querySelector(".slider__btn--right");
   const dotContainer = document.querySelector(".dots");
-  const arrowTitle = document.querySelector(".seccao4Up__title");
-  const arrowIcon = document.querySelector(".seccao4Up__icon");
-  const arrowDownTitle = document.querySelector(".seccao4Down__title");
-  const arrowDownIcon = document.querySelector(".seccao4Down__icon");
+  // const arrowTitle = document.querySelector(".seccao4Up__title");
+  // const arrowIcon = document.querySelector(".seccao4Up__icon");
+  // const arrowDownTitle = document.querySelector(".seccao4Down__title");
+  // const arrowDownIcon = document.querySelector(".seccao4Down__icon");
   const arrLeft = document.querySelector(".arr-left");
   const arrRight = document.querySelector(".arr-right");
   const arrowAnimation = document.querySelector(".arr-right");
@@ -47,19 +47,19 @@ const slider = function () {
       arrRight.style.display = "none";
     } else arrRight.style.display = "flex";
 
-    if (slide === 3 || slide === 4) {
-      arrowTitle.style.color = "white";
-      arrowIcon.style.borderTop = "2.6rem solid white";
-      arrowDownTitle.style.color = "white";
-      arrowDownIcon.style.borderTop = "2.6rem solid white";
-    }
+    // if (slide === 3 || slide === 4) {
+    //   arrowTitle.style.color = "white";
+    //   arrowIcon.style.borderTop = "2.6rem solid white";
+    //   arrowDownTitle.style.color = "white";
+    //   arrowDownIcon.style.borderTop = "2.6rem solid white";
+    // }
 
-    if (slide === 0 || slide === 1 || slide === 2) {
-      arrowTitle.style.color = "#01285b";
-      arrowIcon.style.borderTop = "2.6rem solid #01285b";
-      arrowDownTitle.style.color = "#01285b";
-      arrowDownIcon.style.borderTop = "2.6rem solid #01285b";
-    }
+    // if (slide === 0 || slide === 1 || slide === 2) {
+    //   arrowTitle.style.color = "#01285b";
+    //   arrowIcon.style.borderTop = "2.6rem solid #01285b";
+    //   arrowDownTitle.style.color = "#01285b";
+    //   arrowDownIcon.style.borderTop = "2.6rem solid #01285b";
+    // }
     // console.log(slide);
 
     slides.forEach(

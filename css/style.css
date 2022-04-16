@@ -438,8 +438,7 @@ body {
 .section01 {
   background-image: linear-gradient(to right bottom, rgba(0, 15, 51, 0.8), rgba(0, 47, 158, 0)), url(../img/firstSectionBg.jpg); }
 
-.section02,
-.section04-1 {
+.section02 {
   background: linear-gradient(0deg, #fff 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 193, 255, 0.1) 100%); }
 
 .section05 {
@@ -870,10 +869,6 @@ body {
         background-image: url(../img/section8BgMobile.jpg); } }
   .section__header {
     position: absolute;
-    right: 7vw;
-    padding-right: 20px;
-    display: flex;
-    margin-top: 6rem;
     z-index: 1000; }
     .section__header--big {
       margin-top: 15rem; }
@@ -1193,7 +1188,7 @@ body {
   top: 50%;
   z-index: 10;
   align-content: center;
-  right: 7vw;
+  right: 2vw;
   transition: 0.5s; }
   .arr-right__text {
     color: #ffb71e;
@@ -1210,7 +1205,7 @@ body {
   top: 50%;
   z-index: 10;
   align-content: center;
-  left: 7vw;
+  left: 2vw;
   transition: 0.5s; }
   .arr-left__text {
     color: #ffb71e;
@@ -1230,14 +1225,6 @@ body {
   border-right: 2.1rem solid transparent;
   border-top: 2.6rem solid #ffb71e;
   cursor: pointer; }
-
-.slider__btn--left {
-  left: 7vw;
-  transform: rotate(90deg) !important; }
-
-.slider__btn--right {
-  right: 7vw;
-  transform: rotate(-90deg) !important; }
 
 .dots {
   position: absolute;
@@ -1925,7 +1912,7 @@ body {
 
 .results-line {
   width: 32rem;
-  height: 0.2rem;
+  height: 0.4rem;
   background-image: linear-gradient(90deg, #4DAA51 0%, rgba(77, 170, 81, 0) 104.72%);
   border-radius: 99px;
   margin-bottom: 1.7rem; }
@@ -2008,6 +1995,9 @@ body {
     padding-bottom: 1.5rem; }
     .graph-mobile-container__arrow--3 {
       visibility: hidden; }
+
+.visibility {
+  visibility: hidden !important; }
 
 .global-items {
   display: flex;
@@ -2351,6 +2341,163 @@ body {
 .container-tablet-4-3 {
   flex-direction: column !important;
   align-items: flex-start !important; }
+
+.section--4-1 {
+  min-height: 100vh;
+  background-image: url(../img/section4-1-background.svg); }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section--4-1 {
+      background-image: url(../img/section3-background-tablet.svg);
+      padding-top: 0; } }
+  @media only screen and (max-width: 43.7em) {
+    .section--4-1 {
+      background-image: url(../img/section3-background-phone.svg);
+      padding-top: 0; } }
+
+.section4-1-text__number {
+  font-family: "bentonsansextra_light";
+  color: #B5BD00;
+  font-size: 10rem;
+  line-height: 10.1rem;
+  margin-bottom: 4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-1-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section4-1-text__number {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem; } }
+
+.section4-1-text__title {
+  font-family: "bentonsansbook";
+  color: #B5BD00;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-1-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 0; } }
+  @media only screen and (max-width: 43.7em) {
+    .section4-1-text__title {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+
+.section4-1-text__subtitle {
+  font-family: "bentonsansbold";
+  color: #0A2240;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-bottom: 8rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-1-text__subtitle {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section4-1-text__subtitle {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+
+.section4-1-text__text {
+  font-family: "bentonsansbook";
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-1-text__text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section4-1-text__text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+
+.container1 {
+  display: flex;
+  width: 100%;
+  height: 100%; }
+  @media only screen and (max-width: 43.7em) {
+    .container1 {
+      align-items: center; } }
+  .container1__left--4-1 {
+    flex: 6;
+    align-self: flex-start; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container1__left--4-1 {
+        flex: 9; } }
+  .container1__right--4-1 {
+    align-self: flex-end;
+    flex: 4; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .container1__right--4-1 {
+        flex: 3; } }
+
+.section4-1-button {
+  background-image: linear-gradient(90deg, #929803 0%, #B5BD00 100%);
+  margin-bottom: 0 !important; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-1-button {
+      margin-top: 6rem;
+      margin-bottom: 13rem !important; } }
+  @media only screen and (max-width: 43.7em) {
+    .section4-1-button {
+      margin-bottom: 5rem !important; } }
+
+.container-numbers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem !important; }
+
+.indicators__icon {
+  margin-bottom: 1.4rem; }
+
+.indicators__title {
+  font-family: "bentonsansbook";
+  color: #0A2240;
+  font-size: 3.2rem;
+  line-height: 3.8rem; }
+
+.indicators__line {
+  height: 0.4rem;
+  background-image: linear-gradient(90deg, #B5BD00 0%, rgba(181, 189, 0, 0) 104.72%);
+  border-radius: 99px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem; }
+  @media only screen and (max-width: 43.7em) {
+    .indicators__line {
+      height: 0.4rem;
+      width: 25rem;
+      margin-bottom: 1.3rem; } }
+
+.indicators__line-1 {
+  width: 15.4rem; }
+
+.indicators__line-2 {
+  width: 21.8rem; }
+
+.indicators__line-3 {
+  width: 13rem; }
+
+.indicators__line-4 {
+  width: 9.4rem; }
+
+.indicators__number {
+  font-family: "bentonsansbold";
+  color: #0A2240;
+  font-size: 4.6rem;
+  line-height: 5.4rem; }
 
 .section4-5 {
   width: 100vw;

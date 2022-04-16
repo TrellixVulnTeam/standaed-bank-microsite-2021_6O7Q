@@ -124,10 +124,10 @@
 
   &__header {
     position: absolute;
-    right: 7vw;
-    padding-right: 20px;
-    display: flex;
-    margin-top: 6rem;
+    // right: 7vw;
+    // padding-right: 20px;
+    // display: flex;
+    // margin-top: 6rem;
     z-index: 1000;
 
     &--big {
@@ -557,7 +557,7 @@
   top: 50%;
   z-index: 10;
   align-content: center;
-  right: 7vw;
+  right: 2vw;
   transition: 0.5s;
 
   &__text {
@@ -577,7 +577,7 @@
   top: 50%;
   z-index: 10;
   align-content: center;
-  left: 7vw;
+  left: 2vw;
   transition: 0.5s;
 
   &__text {
@@ -603,15 +603,15 @@
   cursor: pointer;
 }
 
-.slider__btn--left {
-  left: 7vw;
-  transform: rotate(90deg) !important;
-}
+// .slider__btn--left {
+//   left: 7vw;
+//   transform: rotate(90deg) !important;
+// }
 
-.slider__btn--right {
-  right: 7vw;
-  transform: rotate(-90deg) !important;
-}
+// .slider__btn--right {
+//   right: 7vw;
+//   transform: rotate(-90deg) !important;
+// }
 
 .dots {
   position: absolute;
