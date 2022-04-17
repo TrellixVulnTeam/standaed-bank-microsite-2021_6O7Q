@@ -1,7 +1,7 @@
 .section {
-  &--4-1 {
+  &-4-2 {
     min-height: 100vh;
-    background-image: url(../img/section4-1-background.svg);
+    background-image: url(../img/section4-2-background.svg);
     @include respond(tab-port) {
       background-image: url(../img/section4-1-background-tablet.svg);
       padding-top: 0;
@@ -13,6 +13,19 @@
   }
 }
 
+.wrapper-4-2 {
+  margin-left: 7vw;
+  max-width: 86vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  align-content: flex-end;
+  overflow: hidden;
+}
+
 .wrapper {
   @include respond(tab-port) {
     min-height: 0 !important;
@@ -22,7 +35,7 @@
   }
 }
 
-.section4-1-text {
+.section4-2-text {
   &__number {
     font-family: $font-extraLight;
     color: $lima;
@@ -61,13 +74,13 @@
   }
 }
 
-.section4-1-text {
+.section4-2-text {
   &__subtitle {
     font-family: $font-bold;
-    color: $azul-petroleo;
+    color: $white;
     font-size: 2.4rem;
     line-height: 3.2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
@@ -106,8 +119,8 @@
     align-items: center;
   }
   &__left {
-    &--4-1 {
-      flex: 6;
+    &--4-2 {
+      flex: 4;
       align-self: flex-start;
       @include respond(tab-port) {
         flex: 9;
@@ -116,9 +129,9 @@
   }
 
   &__right {
-    &--4-1 {
-      align-self: flex-end;
-      flex: 4;
+    &--4-2 {
+      align-self: flex-start;
+      flex: 8;
       @include respond(tab-port) {
         flex: 3;
       }
@@ -205,9 +218,6 @@
   &__line-4 {
     width: 9.4rem;
   }
-  &__line-5 {
-    width: 18.1rem;
-  }
 
   &__number {
     font-family: $font-bold;
@@ -265,4 +275,16 @@
     padding-top: 0 !important;
   }
   padding-top: 0 !important;
+}
+
+.gap-container {
+  gap: 16rem !important;
+}
+
+.indicators__title-white {
+  color: $white !important;
+}
+
+.indicators4-2 {
+  margin-bottom: 9.6rem;
 }
