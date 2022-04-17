@@ -190,25 +190,25 @@
   }
 
   @include respond(phone) {
-    height: 5rem;
-    &--1 {
-      width: 8.6%;
-    }
-    &--2 {
-      width: 43%;
-    }
-    &--3 {
-      width: 60%;
-    }
-    &--4 {
-      width: 5%;
-    }
-    &--5 {
-      width: 12.3%;
-    }
-    &--6 {
-      width: 41.4%;
-    }
+    height: 4rem;
+    // &--1 {
+    //   width: 8.6%;
+    // }
+    // &--2 {
+    //   width: 43%;
+    // }
+    // &--3 {
+    //   width: 60%;
+    // }
+    // &--4 {
+    //   width: 5%;
+    // }
+    // &--5 {
+    //   width: 12.3%;
+    // }
+    // &--6 {
+    //   width: 41.4%;
+    // }
   }
 
   &__text {
@@ -216,6 +216,11 @@
     font-family: $font-book;
     font-size: 2.4rem;
     line-height: 3.2rem;
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+    }
+
 
     &--percentage {
       color: $blue-medium;
@@ -320,7 +325,8 @@
   font-size: 2.4rem;
   line-height: 3.2rem;
   @include respond(phone) {
-    margin-left: 1rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
   }
 }
 
