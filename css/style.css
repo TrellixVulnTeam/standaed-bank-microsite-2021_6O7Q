@@ -2113,6 +2113,10 @@ body {
     .graph-line {
       display: block; } }
 
+.graph-line-tablet {
+  display: flex;
+  margin-bottom: 3rem; }
+
 .bar-numbers {
   margin-left: 1.5rem;
   display: flex;
@@ -2564,7 +2568,7 @@ body {
   background-image: url(../img/section4-2-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section-4-2 {
-      background-image: url(../img/section4-1-background-tablet.svg);
+      background-image: url(../img/section4-2-background-mobile.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section-4-2 {
@@ -2808,6 +2812,14 @@ body {
 .section4-1-button-margin {
   margin-top: 4rem;
   margin-bottom: 8rem !important; }
+
+.section4-2-button {
+  background-image: linear-gradient(90deg, #929803 0%, #B5BD00 100%);
+  margin-bottom: 0 !important; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section4-2-button {
+      margin-top: 4rem;
+      margin-bottom: 6rem !important; } }
 
 .section4-5 {
   width: 100vw;
