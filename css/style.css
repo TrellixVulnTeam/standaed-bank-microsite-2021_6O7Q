@@ -2969,7 +2969,8 @@ body {
   margin-bottom: 1.4rem; }
   @media only screen and (max-width: 43.7em) {
     .indicators__icon {
-      width: 5rem; } }
+      width: 5rem;
+      height: 5rem; } }
 
 .indicators__title {
   font-family: "bentonsansbook";
@@ -3085,6 +3086,27 @@ body {
 
 .graph-text-blue {
   color: #0A2240 !important; }
+
+.element-container-section4-3 {
+  margin-top: 0rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .element-container-section4-3 {
+      margin-top: 0rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .element-container-section4-3 {
+      margin-bottom: -1rem; } }
+
+.button4-3 {
+  position: absolute;
+  bottom: 10rem; }
+
+.container-indicators-mobile4-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 3rem; }
 
 .section4-5 {
   width: 100vw;

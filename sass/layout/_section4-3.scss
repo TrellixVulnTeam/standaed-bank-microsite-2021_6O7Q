@@ -176,6 +176,7 @@
     margin-bottom: 1.4rem;
     @include respond(phone) {
       width: 5rem;
+      height: 5rem;
     }
 
   }
@@ -324,4 +325,30 @@
 
 .graph-text-blue {
   color: $azul-petroleo !important;
+}
+
+.element-container-section4-3 {
+  @include respond(tab-port) {
+    margin-top: 0rem;
+  }
+  @include respond(phone) {
+    margin-bottom: -1rem;
+  }
+  margin-top: 0rem;
+}
+
+.button4-3 {
+  @include respond(tab-port) {
+  }
+  position: absolute;
+  bottom: 10rem;
+}
+
+.container-indicators-mobile4-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 3rem;
 }
