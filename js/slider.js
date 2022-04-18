@@ -43,7 +43,7 @@ const slider = function () {
       arrowAnimation.classList.remove("shake-arrow"); 
     }
 
-    if (slide === 4) {
+    if (slide === 5) {
       arrRight.style.display = "none";
     } else arrRight.style.display = "flex";
 

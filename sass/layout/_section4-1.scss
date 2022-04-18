@@ -1,5 +1,6 @@
 .section {
   &--4-1 {
+    background-position: center !important;
     min-height: 100vh;
     background-image: url(../img/section4-1-background.svg);
     @include respond(tab-port) {
