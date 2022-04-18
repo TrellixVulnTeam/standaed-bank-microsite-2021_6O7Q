@@ -4,7 +4,7 @@
     min-height: 100vh;
     background-image: url(../img/section4-6-background.png) !important;
     @include respond(tab-port) {
-      background-image: url(../img/section4-2-background-mobile.png) !important;
+      background-image: url(../img/section4-2-background-mobile.svg) !important;
       padding-top: 0;
     }
     @include respond(phone) {
