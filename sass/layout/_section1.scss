@@ -1,4 +1,10 @@
 .section {
+  @include respond(tab-port) {
+    min-height: 100vh;
+  }
+  @include respond(phone) {
+    min-height: 100vh;
+  }
 
   &--1 {
     margin-top: $navbar-desktop-height;

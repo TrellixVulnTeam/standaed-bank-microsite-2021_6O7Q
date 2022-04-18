@@ -56,7 +56,6 @@ const slider = function () {
     }
   
     if (slide === 2) {
-      console.log("Entrei")
       document.getElementById('arr-left').src="img/esquerda-blue.svg";
       document.getElementById('arr-right').src="img/direita-blue.svg";
       document.getElementById('anterior').src="img/anterior-blue.svg";
@@ -69,21 +68,6 @@ const slider = function () {
       document.getElementById('anterior').src="img/anterior.svg";
       document.getElementById('proximo').src="img/proximo.svg";
     }
-
-    // if (slide === 3 || slide === 4) {
-    //   arrowTitle.style.color = "white";
-    //   arrowIcon.style.borderTop = "2.6rem solid white";
-    //   arrowDownTitle.style.color = "white";
-    //   arrowDownIcon.style.borderTop = "2.6rem solid white";
-    // }
-
-    // if (slide === 0 || slide === 1 || slide === 2) {
-    //   arrowTitle.style.color = "#01285b";
-    //   arrowIcon.style.borderTop = "2.6rem solid #01285b";
-    //   arrowDownTitle.style.color = "#01285b";
-    //   arrowDownIcon.style.borderTop = "2.6rem solid #01285b";
-    // }
-    // console.log(slide);
 
     slides.forEach(
       (s, i) => {
