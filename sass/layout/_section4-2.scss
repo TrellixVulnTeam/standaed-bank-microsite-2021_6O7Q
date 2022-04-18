@@ -120,7 +120,7 @@
   }
   &__left {
     &--4-2 {
-      flex: 4;
+      flex: 5 !important;
       align-self: flex-start;
       @include respond(tab-port) {
         flex: 9;
@@ -131,7 +131,7 @@
   &__right {
     &--4-2 {
       align-self: flex-start;
-      flex: 8;
+      flex: 7 !important;
       @include respond(tab-port) {
         flex: 3;
       }
