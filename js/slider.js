@@ -47,6 +47,29 @@ const slider = function () {
       arrRight.style.display = "none";
     } else arrRight.style.display = "flex";
 
+    if (slide === 0 || slide === 1 || slide === 3 || slide === 5) {
+      console.log("Entrei")
+      document.getElementById('arr-left').src="img/esquerda.svg";
+      document.getElementById('arr-right').src="img/direito.svg";
+      document.getElementById('anterior').src="img/anterior.svg";
+      document.getElementById('proximo').src="img/proximo.svg";
+    }
+  
+    if (slide === 2) {
+      console.log("Entrei")
+      document.getElementById('arr-left').src="img/esquerda-blue.svg";
+      document.getElementById('arr-right').src="img/direita-blue.svg";
+      document.getElementById('anterior').src="img/anterior-blue.svg";
+      document.getElementById('proximo').src="img/proximo-blue.svg";
+    }
+
+    if (slide === 4) {
+      document.getElementById('arr-left').src="img/esquerda-blue.svg";
+      document.getElementById('arr-right').src="img/direito.svg";
+      document.getElementById('anterior').src="img/anterior.svg";
+      document.getElementById('proximo').src="img/proximo.svg";
+    }
+
     // if (slide === 3 || slide === 4) {
     //   arrowTitle.style.color = "white";
     //   arrowIcon.style.borderTop = "2.6rem solid white";
