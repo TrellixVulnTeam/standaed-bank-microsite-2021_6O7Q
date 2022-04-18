@@ -3410,7 +3410,8 @@ body {
   background-image: url(../img/section4-5-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section-4-5 {
-      background-image: url(../img/section4-5-background-mobile.svg);
+      background-color: #FBFCF2;
+      background-image: none;
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section-4-5 {
