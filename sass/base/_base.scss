@@ -19,6 +19,10 @@ html {
     font-size: 36.4583333%;
   }
 
+  @media only screen and (max-height: 618px) {
+    font-size: 36.4583333%;
+  }
+
   // @include respond(regular-desktop) {
   //   // width < 1025?
   //   font-size: 47.6190476%;
