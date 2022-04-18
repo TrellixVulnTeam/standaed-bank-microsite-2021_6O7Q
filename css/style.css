@@ -439,7 +439,8 @@ body {
   opacity: 0.5; }
 
 .arrow-button-slide {
-  margin-left: 0 !important; }
+  margin-left: 0 !important;
+  cursor: pointer; }
 
 .section01 {
   background-image: linear-gradient(to right bottom, rgba(0, 15, 51, 0.8), rgba(0, 47, 158, 0)), url(../img/firstSectionBg.jpg); }
@@ -853,10 +854,6 @@ body {
     @media only screen and (max-width: 43.7em) {
       .section--4-3 {
         background-image: url(../img/kidMobile.jpg); } }
-  .section--4-5-tablet {
-    background-image: url(../img/heroes-mobile.jpg);
-    background-position: center !important;
-    background-size: cover; }
   .section--5 {
     background-image: url(../img/section5Bg.jpg); }
     @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
@@ -2835,7 +2832,8 @@ body {
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section-4-3 {
-      background-image: url(../img/section4-2-background-mobile.svg);
+      background-image: none;
+      background-color: #FBFCF2;
       padding-top: 0; } }
 
 .wrapper-4-2 {
@@ -3412,11 +3410,12 @@ body {
   background-image: url(../img/section4-5-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section-4-5 {
-      background-image: url(../img/section4-2-background-mobile.svg);
+      background-image: url(../img/section4-5-background-mobile.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section-4-5 {
-      background-image: url(../img/section4-2-background-mobile.svg);
+      background-color: #FBFCF2;
+      background-image: none;
       padding-top: 0; } }
 
 .wrapper-4-2 {

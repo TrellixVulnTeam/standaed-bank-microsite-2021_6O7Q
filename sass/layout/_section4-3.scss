@@ -8,7 +8,8 @@
       padding-top: 0;
     }
     @include respond(phone) {
-      background-image: url(../img/section4-2-background-mobile.svg);
+      background-image: none;
+      background-color: $creme;
       padding-top: 0;
     }
   }
