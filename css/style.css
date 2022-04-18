@@ -593,7 +593,8 @@ body {
 
 .download-button {
   text-decoration: none;
-  display: flex; }
+  display: flex;
+  align-items: center; }
 
 .hamburguer-icon {
   display: block;
