@@ -2,11 +2,11 @@
   &---6 {
     background-image: url(../img/section6-background.svg);
     @include respond(tab-port) {
-      background-image: url(../img/section2-background-tablet.svg);
+      background-image: url(../img/section6-background-mobile.svg);
       padding-top: 0;
     }
     @include respond(phone) {
-      background-image: url(../img/section2-background-mobile.svg);
+      background-image: url(../img/section6-background-mobile.svg);
       padding-top: 0;
     }
   }
@@ -143,7 +143,22 @@
   background-image: linear-gradient(90deg, #B9470F 0%, #FF681D 100%);;
   margin-bottom: 6rem !important;
   margin-top: 4rem !important;
+  @include respond(tab-port) {
+    background-image: none;
+    background-color: white;
+    margin-bottom: 18rem !important;
+  }
+  @include respond(phone) {
+    background-image: none;
+    background-color: white;
+    margin-bottom: 2rem !important;
+  }
 }
+
+.button-section6-color {
+  color: $laranja !important;
+}
+
 
 .section2-photo {
   position: relative;
@@ -195,6 +210,10 @@
     color: $azul-petroleo;
     font-size: 2.4rem;
     line-height: 3.2rem;
+    @include respond(phone) {
+      font-size: 2.1rem;
+    line-height: 2.8rem;
+    }
   }
 
   &__line {
@@ -210,6 +229,16 @@
       margin-bottom: 0.9rem;
       margin-top: 0.9rem;
     }
+
+    &--1 {
+      width: 15.9rem !important;
+    }
+    &--2 {
+      width: 17.4rem !important;
+    }
+    &--3 {
+      width: 20.0rem !important;
+    }
   }
 
 
@@ -223,6 +252,12 @@
     background-image: linear-gradient(90deg, rgba(255, 104, 29, 0.5), rgba(255, 105, 29, 0));
     border-radius: 1rem;
     padding: 2rem;
+    @include respond(tab-port) {
+      width: 100% !important;
+    }
+    @include respond(phone) {
+      width: 100%;
+    }
   }
 
   &__text {
@@ -230,5 +265,13 @@
     color: $azul-petroleo;
     font-size: 2.4rem;
     line-height: 3.2rem;
+    @include respond(phone) {
+      font-size: 2.1rem;
+    line-height: 2.8rem;
+    }
   }
+}
+
+.element-container-section6 {
+  margin-top: -3rem;
 }

@@ -4097,6 +4097,7 @@ body {
   flex-direction: column; }
 
 .section---5 {
+  min-height: 100vh;
   background-image: url(../img/section5-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section---5 {
@@ -4240,14 +4241,14 @@ body {
 
 .box-content {
   width: 50vw;
-  height: 18.8rem;
+  height: 14rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
   background-image: linear-gradient(90deg, rgba(4, 15, 33, 0.8), rgba(4, 15, 33, 0.2));
   border-radius: 1rem;
-  padding: 1.5rem 3rem; }
+  padding: 3rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .box-content {
       width: 100%;
@@ -4266,8 +4267,8 @@ body {
 .box-content-text {
   font-family: "bentonsansbook";
   color: #fff;
-  font-size: 2.4rem;
-  line-height: 3.2rem; }
+  font-size: 1.8rem;
+  line-height: 2.7rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .box-content-text {
       font-size: 1.6rem;
@@ -4280,7 +4281,7 @@ body {
 b {
   font-family: "bentonsansbold";
   color: #fff;
-  font-size: 2.4rem; }
+  font-size: 1.8rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     b {
       font-size: 1.6rem; } }
@@ -4292,11 +4293,11 @@ b {
   background-image: url(../img/section6-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section---6 {
-      background-image: url(../img/section2-background-tablet.svg);
+      background-image: url(../img/section6-background-mobile.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section---6 {
-      background-image: url(../img/section2-background-mobile.svg);
+      background-image: url(../img/section6-background-mobile.svg);
       padding-top: 0; } }
 
 .wrapper1 {
@@ -4416,6 +4417,19 @@ b {
   background-image: linear-gradient(90deg, #B9470F 0%, #FF681D 100%);
   margin-bottom: 6rem !important;
   margin-top: 4rem !important; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section6-button {
+      background-image: none;
+      background-color: white;
+      margin-bottom: 18rem !important; } }
+  @media only screen and (max-width: 43.7em) {
+    .section6-button {
+      background-image: none;
+      background-color: white;
+      margin-bottom: 2rem !important; } }
+
+.button-section6-color {
+  color: #FF681D !important; }
 
 .section2-photo {
   position: relative;
@@ -4456,6 +4470,10 @@ b {
     color: #0A2240;
     font-size: 2.4rem;
     line-height: 3.2rem; }
+    @media only screen and (max-width: 43.7em) {
+      .section6-element__title {
+        font-size: 2.1rem;
+        line-height: 2.8rem; } }
   .section6-element__line {
     height: 0.4rem;
     width: 14.5rem;
@@ -4469,6 +4487,12 @@ b {
         width: 100% !important;
         margin-bottom: 0.9rem;
         margin-top: 0.9rem; } }
+    .section6-element__line--1 {
+      width: 15.9rem !important; }
+    .section6-element__line--2 {
+      width: 17.4rem !important; }
+    .section6-element__line--3 {
+      width: 20.0rem !important; }
   .section6-element__box {
     width: 68rem;
     height: 6rem;
@@ -4479,11 +4503,24 @@ b {
     background-image: linear-gradient(90deg, rgba(255, 104, 29, 0.5), rgba(255, 105, 29, 0));
     border-radius: 1rem;
     padding: 2rem; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .section6-element__box {
+        width: 100% !important; } }
+    @media only screen and (max-width: 43.7em) {
+      .section6-element__box {
+        width: 100%; } }
   .section6-element__text {
     font-family: "bentonsansbold";
     color: #0A2240;
     font-size: 2.4rem;
     line-height: 3.2rem; }
+    @media only screen and (max-width: 43.7em) {
+      .section6-element__text {
+        font-size: 2.1rem;
+        line-height: 2.8rem; } }
+
+.element-container-section6 {
+  margin-top: -3rem; }
 
 .section-badges {
   display: flex;
