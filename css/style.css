@@ -4518,6 +4518,10 @@ b {
       .section6-element__text {
         font-size: 2.1rem;
         line-height: 2.8rem; } }
+    @media only screen and (max-width: 376px) {
+      .section6-element__text {
+        font-size: 1.8rem;
+        line-height: 2.7rem; } }
 
 .element-container-section6 {
   margin-top: -3rem; }
@@ -4533,7 +4537,8 @@ b {
     width: 86%;
     margin: 0 auto;
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    margin-top: 8rem; }
     @media only screen and (max-width: 43.7em) {
       .section-badges__content {
         padding-left: 0;
@@ -4544,21 +4549,40 @@ b {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  gap: 2rem;
+  margin-bottom: 8rem; }
+
+.badges-container--phone {
+  display: flex;
+  width: 100%;
   margin-top: 8rem;
-  margin-bottom: 12rem; }
-  @media only screen and (max-width: 43.7em) {
-    .badges-container {
-      margin-bottom: 6rem;
-      margin-top: 0; } }
-  .badges-container--phone {
-    margin-top: 4rem; }
+  margin-bottom: 9rem;
+  gap: 4rem; }
 
 .badges_images {
-  width: auto;
-  height: 15.7rem; }
+  width: 20rem; }
   @media only screen and (max-width: 43.7em) {
     .badges_images {
-      height: 7rem; } }
+      width: 16rem;
+      margin-bottom: 6rem; } }
+
+.section-badges-text__number {
+  font-family: "bentonsansbook";
+  color: #0A2240;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin-bottom: 5rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section-badges-text__number {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section-badges-text__number {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem;
+      margin-top: 7rem; } }
 
 .flex-wrapper {
   display: flex;

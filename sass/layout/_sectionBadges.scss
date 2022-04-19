@@ -11,6 +11,7 @@
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 8rem;
     @include respond(phone) {
       padding-left: 0;
       padding-right: 0;
@@ -23,25 +24,44 @@
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}
+
+.badges-container--phone {
+  display: flex;
+  width: 100%;
   margin-top: 8rem;
-  margin-bottom: 12rem;
-  @include respond(phone) {
-    margin-bottom: 6rem;
-    margin-top: 0;
-  }
-  &--phone {
-    margin-top: 4rem;
-  }
+  margin-bottom: 9rem;
+  gap: 4rem;
 }
 
 .badges_images {
-  width: auto;
-  height: 15.7rem;
+  width: 20rem;
   @include respond(phone) {
-    height: 7rem;
+    width: 16rem;
+    margin-bottom: 6rem;
   }
 }
 
+.section-badges-text__number {
+  font-family: $font-book;
+  color: $azul-petroleo;
+  font-size: 6rem;
+  line-height: 6.6rem;
+  margin-bottom: 5rem;
+  @include respond(tab-port) {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    margin-bottom: 3rem;
+  }
+  @include respond(phone) {
+    font-size: 3rem;
+    line-height: 3.8rem;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+  }
+}
 // .wrapper-badges {
 //   margin-right: auto; /* 1 */
 //   margin-left: auto; /* 1 */
