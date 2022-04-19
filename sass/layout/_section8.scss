@@ -1,0 +1,221 @@
+.section {
+  &-8 {
+    background-position: center !important;
+    min-height: 100vh;
+    background-image: url(../img/section8-background.svg);
+    @include respond(tab-port) {
+      background-image: url(../img/section4-2-background-mobile.svg);
+      padding-top: 0;
+    }
+    @include respond(phone) {
+      background-image: none;
+      background-color: $creme;
+      padding-top: 0;
+    }
+  }
+}
+
+
+.section8-text {
+  &__number {
+    font-family: $font-extraLight;
+    color: $white;
+    font-size: 10rem;
+    line-height: 10.1rem;
+    margin-bottom: 4rem;
+    @include respond(tab-port) {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+    @include respond(phone) {
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__title {
+    font-family: $font-book;
+    color: $white;
+    font-size: 6rem;
+    line-height: 6.6rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    @include respond(tab-port) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 3rem;
+      line-height: 3.8rem;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.section8-text {
+  &__subtitle {
+    font-family: $font-bold;
+    color: $white;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 1.2rem;
+    }
+  }
+  &__text {
+    font-family: $font-book;
+    color: $white;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin-bottom: 5rem;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+  }
+}
+
+.container8 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  @include respond(phone) {
+    align-items: center;
+  }
+  &__left {
+    &--8 {
+      flex: 4;
+      align-self: flex-start;
+      @include respond(tab-port) {
+        flex: 9;
+      }
+    }
+  }
+
+  &__right {
+    &--8 {
+      align-self: flex-start;
+      justify-self: flex-end;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex-direction: column;
+      flex: 7;
+      @include respond(tab-port) {
+        flex: 3;
+      }
+    }
+  }
+}
+
+.button-sec8--downloads{
+  width: 100% !important;
+  min-height: 7.8rem;
+  vertical-align: baseline;
+  @include respond(phone) {
+    min-height: 6rem;
+  }
+}
+
+.button8 {
+  &,
+  &:link,
+  &:visited,   &:focus {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    color: $white;
+    border: 0.3rem solid $white;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-size: 2.1rem;
+    font-family: 'bentonsansregular';
+    // text-transform: uppercase;
+    cursor: pointer;
+    // clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+    width: 30rem;
+
+    @include respond(phone) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__1 {
+    border: 0.3rem solid $white !important;
+  }
+  &__2 {
+    border: 0.3rem solid $azul-claro !important;
+  }
+  &__3 {
+    border: 0.3rem solid $amarelo !important;
+  }
+  &__4 {
+    border: 0.3rem solid $verde !important;
+  }
+  &__5 {
+    border: 0.3rem solid $lima !important;
+  }
+  &__6 {
+    border: 0.3rem solid $bege !important;
+  }
+  &__7 {
+    border: 0.3rem solid $laranja !important;
+  }
+
+  &__1:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #0A2240 0%, #173A66 100%)!important;
+  }
+  &__2:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%)!important;
+  }
+  &__3:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #EB9006 0%, #FFB81D 100%)!important;
+  }
+  &__4:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #1C8321 0%, #4DAA51 100%)!important;
+  }
+  &__5:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #959B03 0%, #B5BD00 100%)!important;
+  }
+  &__6:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #C1844C 0%, #E7B78A 100%)!important;
+  }
+  &__7:hover {
+    border: 0.3rem solid $white !important;
+    background-image: linear-gradient(90deg, #BB480F 0%, #FF681D 100%)!important;
+  }
+  }
+
+  .section8-footer {
+    margin-bottom: 6rem;
+  }
+
+  .section8-logo {
+   height: 14rem;
+  }
