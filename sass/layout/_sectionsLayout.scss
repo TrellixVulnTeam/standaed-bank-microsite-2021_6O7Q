@@ -94,15 +94,6 @@
           url(../img/kidMobile.jpg);
       }
   }
-  &--5 {
-    background-image: url(../img/section5Bg.jpg);
-    @include respond(tab-port) {
-      background-image: url(../img/section5BgTablet.jpg);
-    }
-    @include respond(phone) {
-      background-image: url(../img/section5BgMobile.jpg);
-    }
-  }
   &--8 {
     background-image: url(../img/section8Bg.jpg);
 

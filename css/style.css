@@ -854,14 +854,6 @@ body {
     @media only screen and (max-width: 43.7em) {
       .section--4-3 {
         background-image: url(../img/kidMobile.jpg); } }
-  .section--5 {
-    background-image: url(../img/section5Bg.jpg); }
-    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-      .section--5 {
-        background-image: url(../img/section5BgTablet.jpg); } }
-    @media only screen and (max-width: 43.7em) {
-      .section--5 {
-        background-image: url(../img/section5BgMobile.jpg); } }
   .section--8 {
     background-image: url(../img/section8Bg.jpg); }
     @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
@@ -4104,7 +4096,7 @@ body {
   background-image: url(../img/section5-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section---5 {
-      background-image: url(../img/sectio4-2-background-mobile.svg);
+      background-image: url(../img/section4-2-background-mobile.svg);
       margin-top: 0rem;
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
@@ -4252,18 +4244,30 @@ body {
   background-image: linear-gradient(90deg, rgba(4, 15, 33, 0.8), rgba(4, 15, 33, 0.2));
   border-radius: 1rem;
   padding: 3rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .box-content {
+      width: 100%;
+      height: auto;
+      padding: 1.6rem;
+      margin-bottom: 1rem;
+      justify-content: flex-start; } }
   @media only screen and (max-width: 43.7em) {
     .box-content {
       width: 100%;
       height: auto;
       padding: 1.6rem;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem;
+      justify-content: flex-start; } }
 
 .box-content-text {
   font-family: "bentonsansbook";
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .box-content-text {
+      font-size: 1.6rem;
+      line-height: 2.4rem; } }
   @media only screen and (max-width: 43.7em) {
     .box-content-text {
       font-size: 1.6rem;
@@ -4273,6 +4277,9 @@ b {
   font-family: "bentonsansbold";
   color: #fff;
   font-size: 2.4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    b {
+      font-size: 1.6rem; } }
   @media only screen and (max-width: 43.7em) {
     b {
       font-size: 1.6rem; } }
