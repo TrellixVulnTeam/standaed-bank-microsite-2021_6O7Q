@@ -4554,24 +4554,39 @@ b {
 
 .badges-container--phone {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  margin-top: 8rem;
-  margin-bottom: 9rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   gap: 4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .badges-container--phone {
+      margin-top: 6rem; } }
 
 .badges_images {
   width: 20rem; }
   @media only screen and (max-width: 43.7em) {
     .badges_images {
-      width: 16rem;
-      margin-bottom: 6rem; } }
+      width: 16rem; } }
+  @media only screen and (max-width: 375px) {
+    .badges_images {
+      width: 12rem; } }
+  @media only screen and (max-width: 320px) {
+    .badges_images {
+      width: 10rem; } }
+
+.badge-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem; }
 
 .section-badges-text__number {
   font-family: "bentonsansbook";
   color: #0A2240;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 5.2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section-badges-text__number {
       font-size: 3rem;

@@ -30,18 +30,34 @@
 
 .badges-container--phone {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  margin-top: 8rem;
-  margin-bottom: 9rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   gap: 4rem;
+  @include respond(tab-port) {
+    margin-top: 6rem;
+  }
 }
 
 .badges_images {
   width: 20rem;
   @include respond(phone) {
     width: 16rem;
-    margin-bottom: 6rem;
   }
+  @media only screen and (max-width: 375px) {
+    width: 12rem;
+  }
+  @media only screen and (max-width: 320px) {
+    width: 10rem;
+  }
+}
+
+.badge-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .section-badges-text__number {
@@ -49,7 +65,7 @@
   color: $azul-petroleo;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem;
+  margin-bottom: 5.2rem;
   @include respond(tab-port) {
     font-size: 3rem;
     line-height: 3.8rem;
