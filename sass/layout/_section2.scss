@@ -24,6 +24,11 @@
   overflow: hidden;
 }
 
+.wrapper2 {
+  height: 100vh !important;
+  justify-content: flex-start !important;
+}
+
 .content1 {
   display: flex;
   width: 100%;
@@ -124,7 +129,7 @@
     font-family: $font-book;
     color: $azul-petroleo;
     font-size: 2.4rem;
-    line-height: 2.8rem;
+    line-height: 3.2rem !important;
     margin-bottom: 5rem;
     @include respond(tab-port) {
       font-size: 1.6rem;
