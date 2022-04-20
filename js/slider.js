@@ -48,7 +48,6 @@ const slider = function () {
     } else arrRight.style.display = "flex";
 
     if (slide === 0 || slide === 1 || slide === 3 || slide === 5) {
-      console.log("Entrei")
       document.getElementById('arr-left').src="img/esquerda.svg";
       document.getElementById('arr-right').src="img/direito.svg";
       document.getElementById('anterior').src="img/anterior.svg";
