@@ -765,6 +765,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%; }
+    @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+      .menu-open__container {
+        margin-top: 5rem; } }
 
 .menu-in {
   opacity: 1;
