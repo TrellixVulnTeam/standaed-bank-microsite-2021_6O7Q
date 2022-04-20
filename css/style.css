@@ -4739,6 +4739,9 @@ b {
 .text-white {
   color: #fff !important; }
 
+.download-icon {
+  width: 2.6rem; }
+
 .section-badges {
   display: flex;
   overflow: hidden;
