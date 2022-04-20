@@ -4736,6 +4736,9 @@ b {
 .section8-logo {
   height: 14rem; }
 
+.text-white {
+  color: #fff !important; }
+
 .section-badges {
   display: flex;
   overflow: hidden;
