@@ -10,6 +10,7 @@ function menuFunction() {
       x.classList.add('menu-out');
       x.classList.remove('menu-in');
       rolling.style.overflowY = "auto";
+      document.getElementById('hamb').src="img/hamb.svg";
       for (const box of ActiveHamb) {
         box.classList.remove('hamburguer-icon__active');
       }
@@ -19,9 +20,12 @@ function menuFunction() {
       buttonActive.classList.remove('button-active');
       buttonActiveMobile.classList.remove('button-active-mobile');
       button1.classList.remove('remove-border');
+      
+      
     } else {
       x.classList.add('menu-in');
       x.classList.remove('menu-out');
+      document.getElementById('hamb').src="img/cross.svg";
       for (const box of ActiveHamb) {
         box.classList.add('hamburguer-icon__active');
       }
@@ -35,3 +39,4 @@ function menuFunction() {
       button1.classList.add('remove-border');
     }
   }
+
