@@ -167,7 +167,7 @@
 
 .box-content {
   width: 50vw;
-  height: 14rem;
+  height: 18rem;
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -194,8 +194,8 @@
 .box-content-text {
   font-family: $font-book;
   color: $white;
-  font-size: 1.8rem;
-  line-height: 2.7rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
   @include respond(tab-port) {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -210,7 +210,7 @@
 b {
   font-family: $font-bold;
   color: $white;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   @include respond(tab-port) {
     font-size: 1.6rem;
   }

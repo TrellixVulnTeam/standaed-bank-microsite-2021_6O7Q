@@ -4252,7 +4252,7 @@ body {
 
 .box-content {
   width: 50vw;
-  height: 14rem;
+  height: 18rem;
   display: flex;
   justify-content: flex-start;
   align-content: center;
@@ -4278,8 +4278,8 @@ body {
 .box-content-text {
   font-family: "bentonsansbook";
   color: #fff;
-  font-size: 1.8rem;
-  line-height: 2.7rem; }
+  font-size: 2.4rem;
+  line-height: 3.2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .box-content-text {
       font-size: 1.6rem;
@@ -4292,7 +4292,7 @@ body {
 b {
   font-family: "bentonsansbold";
   color: #fff;
-  font-size: 1.8rem; }
+  font-size: 2.4rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     b {
       font-size: 1.6rem; } }
@@ -4745,12 +4745,8 @@ b {
   background-image: linear-gradient(90deg, #BB480F 0%, #FF681D 100%) !important; }
 
 .section8-footer {
-  position: absolute;
-  bottom: 4rem;
-  left: 0;
   padding-left: 2rem;
   width: 84vw;
-  margin-left: 7vw;
   display: flex;
   flex-direction: column; }
 
@@ -4762,6 +4758,29 @@ b {
 
 .download-icon {
   width: 2.6rem; }
+
+.margin-footer {
+  margin-top: 3rem; }
+
+.wrapper8 {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 86vw;
+  height: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  position: relative; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .wrapper8 {
+      justify-content: flex-start;
+      margin-top: 8rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .wrapper8 {
+      justify-content: flex-start; } }
 
 .section-badges {
   display: flex;
