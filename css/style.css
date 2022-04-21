@@ -4914,7 +4914,7 @@ b {
 
 .circular-chart.blue .circle {
   stroke: #4DAA51;
-  animation: progress 0.7s ease-out forwards; }
+  animation: progress 2s ease-out forwards; }
 
 .percentage {
   fill: #fff;
