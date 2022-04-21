@@ -31,7 +31,7 @@ html {
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     html {
       font-size: 36.4583333%; } }
-  @media only screen and (max-height: 700px) {
+  @media only screen and (max-height: 900px) {
     html {
       font-size: 36.4583333%; } }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
