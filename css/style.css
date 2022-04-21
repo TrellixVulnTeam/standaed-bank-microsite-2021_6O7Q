@@ -816,7 +816,8 @@ body {
   color: #0A2240 !important; }
 
 .hamburguernav {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  height: 3rem; }
 
 .wrapper {
   margin-right: auto;
