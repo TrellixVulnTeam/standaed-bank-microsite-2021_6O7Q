@@ -4217,16 +4217,22 @@ b {
 
 .section-8 {
   background-position: center !important;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url(../img/section8-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section-8 {
+      min-height: none !important;
       background-image: url(../img/section8-background-mobile.svg);
       padding-top: 0; } }
   @media only screen and (max-width: 43.7em) {
     .section-8 {
+      min-height: none !important;
       background-image: url(../img/section8-background-mobile.svg) !important;
       padding-top: 0; } }
+
+.section-8-mobile {
+  background-position: center !important;
+  background-image: url(../img/section8-background-mobile.svg); }
 
 .section8-text__number {
   font-family: "bentonsansextra_light";
@@ -4326,7 +4332,7 @@ b {
 
 .button-sec8--downloads {
   width: 100% !important;
-  min-height: 7.8rem;
+  min-height: 6.5rem;
   vertical-align: baseline; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .button-sec8--downloads {
@@ -4459,6 +4465,26 @@ b {
   @media only screen and (max-width: 43.7em) {
     .wrapper8 {
       justify-content: flex-start; } }
+
+.margin-bottom2 {
+  margin-bottom: 2rem !important; }
+
+.footer-text {
+  font-family: "bentonsansbook";
+  color: #fff;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .footer-text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .footer-text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem; } }
 
 .section-badges {
   display: flex;

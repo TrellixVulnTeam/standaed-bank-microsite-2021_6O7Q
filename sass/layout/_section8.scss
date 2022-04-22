@@ -1,16 +1,22 @@
 .section {
   &-8 {
     background-position: center !important;
-    min-height: 100vh;
+    height: 100vh;
     background-image: url(../img/section8-background.svg);
     @include respond(tab-port) {
+      min-height: none !important;
       background-image: url(../img/section8-background-mobile.svg);
       padding-top: 0;
     }
     @include respond(phone) {
+      min-height: none !important;
       background-image: url(../img/section8-background-mobile.svg) !important;
       padding-top: 0;
     }
+  }
+  &-8-mobile {
+    background-position: center !important;
+    background-image: url(../img/section8-background-mobile.svg);
   }
 }
 
@@ -127,7 +133,7 @@
 
 .button-sec8--downloads{
   width: 100% !important;
-  min-height: 7.8rem;
+  min-height: 6.5rem;
   vertical-align: baseline;
   @include respond(tab-port) {
     min-height: 6rem;
@@ -282,3 +288,46 @@
     justify-content: flex-start;
   }
 }
+
+.margin-bottom2 {
+  margin-bottom: 2rem !important;
+}
+
+.footer-text {
+    font-family: $font-book;
+    color: $white;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    @include respond(tab-port) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+    @include respond(phone) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      margin-bottom: 3rem;
+    }
+}
+
+
+// .wrapper8mobile {
+//   margin-right: auto;
+//   margin-left: auto;
+//   max-width: 86vw;
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+//   justify-content: center;
+//   position: relative;
+//   @include respond(tab-port) {
+//     justify-content: flex-start;
+//     margin-top: 8rem;
+//   }
+//   @include respond(phone) {
+//     justify-content: flex-start;
+//     padding-right: 0;
+//     padding-left: 0;
+//   }
+// }
