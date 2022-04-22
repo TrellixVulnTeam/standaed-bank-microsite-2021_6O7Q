@@ -163,7 +163,10 @@ const slider = function () {
         });
         e.querySelectorAll('.container__left--4-4-mobile').forEach((e) => {
           e.classList.add('block-fade-right');
-        });          
+        });      
+        e.querySelectorAll('.block-animated').forEach((e) => {
+          e.classList.add('block-fade-right');
+        });      
         e.querySelectorAll('.pie-graph').forEach((e) => {
           e.classList.add('block-grow');
         });
