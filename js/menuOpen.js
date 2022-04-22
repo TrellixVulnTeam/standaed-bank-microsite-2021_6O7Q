@@ -4,10 +4,12 @@ function menuFunction() {
     const ActiveHamb = document.querySelectorAll(".hamburguer-icon__bar");
     const ActiveDown = document.querySelectorAll(".downloadText");
     if (x.className.includes('menu-in')) {
+      console.log("1");
       x.classList.add('menu-out');
       x.classList.remove('menu-in');
-      rolling.style.overflowY = "auto";
+      // rolling.style.overflowY = "auto";
       document.getElementById('hamb').src="img/hamb.svg";
+      document.getElementById("00").style.position = "absolute";
       for (const box of ActiveHamb) {
         box.classList.remove('hamburguer-icon__active');
       }
@@ -26,7 +28,8 @@ function menuFunction() {
       for (const box of ActiveDown) {
         box.classList.add('navbar-downloadTextOn');
       }
-      rolling.style.overflowY = "hidden";
+      document.getElementById("00").style.position = "fixed";
+      // rolling.style.overflowY = "hidden";
 
     }
   }
