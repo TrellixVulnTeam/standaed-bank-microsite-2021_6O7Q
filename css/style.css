@@ -596,6 +596,12 @@ body {
 .hamburguer-icon {
   display: flex;
   margin-left: 1.4rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .hamburguer-icon {
+      display: block; } }
+  @media only screen and (max-width: 43.7em) {
+    .hamburguer-icon {
+      display: block; } }
   .hamburguer-icon__bar {
     height: 3px;
     width: 30px;

@@ -207,6 +207,12 @@ opacity: 0.5;
 .hamburguer-icon {
   display: flex;
   margin-left: 1.4rem;
+  @include respond(tab-port) {
+    display: block;
+  }
+  @include respond(phone) {
+    display: block;
+  }
 
 
   &__bar {
