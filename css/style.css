@@ -1167,7 +1167,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 3rem 0; }
+  margin-bottom: 3rem; }
 
 .container1 {
   display: flex;
