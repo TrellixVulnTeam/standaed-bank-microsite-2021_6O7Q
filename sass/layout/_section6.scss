@@ -91,7 +91,7 @@
     color: $laranja;
     font-size: 6rem;
     line-height: 6.6rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem !important;
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
@@ -278,4 +278,9 @@
 
 .element-container-section6 {
   margin-top: -3rem;
+}
+
+\
+.margin-bottom-50 {
+  margin-bottom: 5rem !important;
 }

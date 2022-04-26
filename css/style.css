@@ -1155,7 +1155,9 @@ body {
   width: 86vw;
   display: flex;
   justify-content: space-between;
-  padding-right: 4rem; }
+  padding-right: 4rem;
+  align-items: flex-start;
+  margin-bottom: 3rem; }
 
 .container1 {
   display: flex;
@@ -1182,7 +1184,7 @@ body {
   color: #00A9E0;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section1-text__number {
       font-size: 5rem;
@@ -1201,7 +1203,7 @@ body {
   color: #00A9E0;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section1-text__title {
       font-size: 3rem;
@@ -1218,7 +1220,7 @@ body {
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section1-text__subtitle {
       font-size: 1.6rem;
@@ -1256,6 +1258,9 @@ body {
   bottom: -10px;
   width: 100%; }
 
+.section-logo {
+  height: 10rem; }
+
 .section--2 {
   background-image: url(../img/section2-background.svg); }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
@@ -1292,7 +1297,9 @@ body {
   width: 86vw;
   display: flex;
   justify-content: space-between;
-  padding-right: 4rem; }
+  padding-right: 4rem;
+  align-items: flex-start;
+  margin-bottom: 3rem; }
 
 .container1 {
   display: flex;
@@ -1319,7 +1326,7 @@ body {
   color: #FFB81D;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section2-text__number {
       font-size: 5rem;
@@ -1338,7 +1345,7 @@ body {
   color: #FFB81D;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section2-text__title {
       font-size: 3rem;
@@ -1355,7 +1362,7 @@ body {
   color: #0A2240;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section2-text__subtitle {
       font-size: 1.6rem;
@@ -1478,11 +1485,17 @@ body {
   width: 86vw;
   justify-content: flex-start; }
 
-.header1 {
+.header3 {
+  padding-top: 8rem;
   width: 86vw;
   display: flex;
   justify-content: space-between;
-  padding-right: 4rem; }
+  padding-right: 4rem;
+  align-items: flex-start;
+  margin-bottom: 5rem; }
+
+.margin-bottom-30 {
+  margin-bottom: 3rem !important; }
 
 .container3 {
   display: flex;
@@ -1528,7 +1541,7 @@ body {
   color: #4DAA51;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 8rem; }
+  margin-bottom: 3rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section3-text__title {
       font-size: 3rem;
@@ -2055,12 +2068,20 @@ body {
   .wrapper {
     min-height: 0 !important; } }
 
+.header4 {
+  padding-top: 8rem;
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+  align-items: flex-start; }
+
 .section4-1-text__number {
   font-family: "bentonsansextra_light";
   color: #B5BD00;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-1-text__number {
       font-size: 5rem;
@@ -2079,7 +2100,7 @@ body {
   color: #B5BD00;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-1-text__title {
       font-size: 3rem;
@@ -2096,7 +2117,7 @@ body {
   color: #0A2240;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 8rem; }
+  margin-bottom: 5rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-1-text__subtitle {
       font-size: 1.6rem;
@@ -2157,7 +2178,7 @@ body {
 .container-numbers {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8rem !important; }
+  margin-bottom: 5rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -2294,7 +2315,7 @@ body {
   color: #B5BD00;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-2-text__number {
       font-size: 5rem;
@@ -2313,7 +2334,7 @@ body {
   color: #B5BD00;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-2-text__title {
       font-size: 3rem;
@@ -2330,7 +2351,7 @@ body {
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-2-text__subtitle {
       font-size: 1.6rem;
@@ -2387,11 +2408,6 @@ body {
       margin-top: 6rem;
       margin-bottom: 6rem !important;
       margin-left: 8rem; } }
-
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -2549,48 +2565,12 @@ body {
   .wrapper {
     min-height: 0 !important; } }
 
-.section4-2-text__number {
-  font-family: "bentonsansextra_light";
-  color: #B5BD00;
-  font-size: 10rem;
-  line-height: 10.1rem;
-  margin-bottom: 4rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-
-.section4-2-text__title {
-  font-family: "bentonsansbook";
-  color: #B5BD00;
-  font-size: 6rem;
-  line-height: 6.6rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-
 .section4-3-text__subtitle {
   font-family: "bentonsansbold";
   color: #0A2240;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section4-3-text__subtitle {
       font-size: 1.6rem;
@@ -2647,11 +2627,6 @@ body {
       margin-top: 6rem;
       margin-bottom: 6rem !important;
       margin-left: 8rem; } }
-
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -2836,76 +2811,6 @@ body {
   .wrapper {
     min-height: 0 !important; } }
 
-.section4-2-text__number {
-  font-family: "bentonsansextra_light";
-  color: #B5BD00;
-  font-size: 10rem;
-  line-height: 10.1rem;
-  margin-bottom: 4rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-
-.section4-2-text__title {
-  font-family: "bentonsansbook";
-  color: #B5BD00;
-  font-size: 6rem;
-  line-height: 6.6rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-
-.section4-3-text__subtitle {
-  font-family: "bentonsansbold";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 1.2rem; } }
-
-.section4-3-text__text {
-  font-family: "bentonsansbook";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 2.8rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-
 .container1 {
   display: flex;
   width: 100%;
@@ -2934,11 +2839,6 @@ body {
       margin-top: 6rem;
       margin-bottom: 6rem !important;
       margin-left: 8rem; } }
-
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -3132,76 +3032,6 @@ body {
   .wrapper {
     min-height: 0 !important; } }
 
-.section4-2-text__number {
-  font-family: "bentonsansextra_light";
-  color: #B5BD00;
-  font-size: 10rem;
-  line-height: 10.1rem;
-  margin-bottom: 4rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-
-.section4-2-text__title {
-  font-family: "bentonsansbook";
-  color: #B5BD00;
-  font-size: 6rem;
-  line-height: 6.6rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-
-.section4-3-text__subtitle {
-  font-family: "bentonsansbold";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 1.2rem; } }
-
-.section4-3-text__text {
-  font-family: "bentonsansbook";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-
 .container1 {
   display: flex;
   width: 100%;
@@ -3232,11 +3062,6 @@ body {
       margin-top: 6rem;
       margin-bottom: 6rem !important;
       margin-left: 8rem; } }
-
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -3475,76 +3300,6 @@ body {
   .wrapper {
     min-height: 0 !important; } }
 
-.section4-2-text__number {
-  font-family: "bentonsansextra_light";
-  color: #B5BD00;
-  font-size: 10rem;
-  line-height: 10.1rem;
-  margin-bottom: 4rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__number {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem; } }
-
-.section4-2-text__title {
-  font-family: "bentonsansbook";
-  color: #B5BD00;
-  font-size: 6rem;
-  line-height: 6.6rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-2-text__title {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem; } }
-
-.section4-3-text__subtitle {
-  font-family: "bentonsansbold";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__subtitle {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 1.2rem; } }
-
-.section4-3-text__text {
-  font-family: "bentonsansbook";
-  color: #0A2240;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  margin-bottom: 5rem; }
-  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-  @media only screen and (max-width: 43.7em) {
-    .section4-3-text__text {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem; } }
-
 .container1 {
   display: flex;
   width: 100%;
@@ -3575,11 +3330,6 @@ body {
       margin-top: 6rem;
       margin-bottom: 6rem !important;
       margin-left: 8rem; } }
-
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important; }
 
 @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
   .indicators {
@@ -3821,6 +3571,15 @@ body {
   justify-content: space-between;
   padding-right: 4rem; }
 
+.header5 {
+  padding-top: 8rem;
+  width: 86vw;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4rem;
+  align-items: flex-start;
+  margin-bottom: 0; }
+
 .container1 {
   display: flex;
   width: 100%;
@@ -3846,7 +3605,7 @@ body {
   color: #E7B78A;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section5-text__number {
       font-size: 5rem;
@@ -3865,7 +3624,7 @@ body {
   color: #E7B78A;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section5-text__title {
       font-size: 3rem;
@@ -3882,7 +3641,7 @@ body {
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section5-text__subtitle {
       font-size: 1.6rem;
@@ -4056,7 +3815,7 @@ b {
   color: #FF681D;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem !important; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section6-text__title {
       font-size: 3rem;
@@ -4215,6 +3974,10 @@ b {
 .element-container-section6 {
   margin-top: -3rem; }
 
+\
+.margin-bottom-50 {
+  margin-bottom: 5rem !important; }
+
 .section-8 {
   background-position: center !important;
   height: 100vh;
@@ -4239,7 +4002,7 @@ b {
   color: #fff;
   font-size: 10rem;
   line-height: 10.1rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section8-text__number {
       font-size: 5rem;
@@ -4258,8 +4021,7 @@ b {
   color: #00A9E0;
   font-size: 6rem;
   line-height: 6.6rem;
-  margin-bottom: 5rem;
-  margin-top: 3rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section8-text__title {
       font-size: 3rem;
@@ -4276,7 +4038,7 @@ b {
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section8-text__subtitle {
       font-size: 1.6rem;
@@ -4293,7 +4055,7 @@ b {
   color: #fff;
   font-size: 2.4rem;
   line-height: 3.2rem;
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
     .section8-text__text {
       font-size: 1.6rem;

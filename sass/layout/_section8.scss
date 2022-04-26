@@ -27,7 +27,7 @@
     color: $white;
     font-size: 10rem;
     line-height: 10.1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     @include respond(tab-port) {
       font-size: 5rem;
       line-height: 6rem;
@@ -46,8 +46,7 @@
     color: $azul-claro;
     font-size: 6rem;
     line-height: 6.6rem;
-    margin-bottom: 5rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
@@ -67,7 +66,7 @@
     color: $white;
     font-size: 2.4rem;
     line-height: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
@@ -84,7 +83,7 @@
     color: $white;
     font-size: 2.4rem;
     line-height: 3.2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;

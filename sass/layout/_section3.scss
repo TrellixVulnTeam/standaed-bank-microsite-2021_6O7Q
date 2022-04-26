@@ -32,11 +32,18 @@
 
 }
 
-.header1 {
+.header3 {
+  padding-top: 8rem;
   width: 86vw;
   display: flex;
   justify-content: space-between;
   padding-right: 4rem;
+  align-items: flex-start;
+  margin-bottom: 5rem;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 3rem !important;
 }
 
 .container3 {
@@ -92,7 +99,7 @@
     color: $verde;
     font-size: 6rem;
     line-height: 6.6rem;
-    margin-bottom: 8rem;
+    margin-bottom: 3rem;
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;

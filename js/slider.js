@@ -88,7 +88,7 @@ const slider = function () {
       })
     });
 
-    [1, 2, 3, 4].forEach((e) => {
+    [1, 2, 3, 4, 5, 6].forEach((e) => {
       document.querySelectorAll(`.section--4-${e}`).forEach((e) => {
         e.querySelectorAll('.bar-entry').forEach((e) => {
           e.classList.remove('bar-animated');
@@ -112,7 +112,7 @@ const slider = function () {
       });
     });
 
-    [1, 2, 3, 4].forEach((e) => {
+    [1, 2, 3, 4, 5, 6].forEach((e) => {
       document.querySelectorAll(`.section--4-${e}`).forEach((e) => {
         e.querySelectorAll('.colaboradores__text').forEach((e) => {
           e.classList.remove('block-fade-right');
@@ -136,7 +136,7 @@ const slider = function () {
       });
     });
 
-    [1, 2, 3, 4].forEach((e) => {
+    [1, 2, 3, 4, 5, 6].forEach((e) => {
       document.querySelectorAll(`.section--4-${e}`).forEach((e) => {
         e.querySelectorAll('.pie-graph').forEach((e) => {
           e.classList.remove('block-grow');

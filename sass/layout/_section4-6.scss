@@ -36,81 +36,81 @@
   }
 }
 
-.section4-2-text {
-  &__number {
-    font-family: $font-extraLight;
-    color: $lima;
-    font-size: 10rem;
-    line-height: 10.1rem;
-    margin-bottom: 4rem;
-    @include respond(tab-port) {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-    }
-    @include respond(phone) {
-      font-size: 5rem;
-      line-height: 6rem;
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-    }
-  }
-  &__title {
-    font-family: $font-book;
-    color: $lima;
-    font-size: 6rem;
-    line-height: 6.6rem;
-    margin-bottom: 5rem;
-    @include respond(tab-port) {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem;
-    }
-    @include respond(phone) {
-      font-size: 3rem;
-      line-height: 3.8rem;
-      margin-bottom: 3rem;
-    }
-  }
-}
+// .section4-2-text {
+//   &__number {
+//     font-family: $font-extraLight;
+//     color: $lima;
+//     font-size: 10rem;
+//     line-height: 10.1rem;
+//     margin-bottom: 4rem;
+//     @include respond(tab-port) {
+//       font-size: 5rem;
+//       line-height: 6rem;
+//       margin-top: 3rem;
+//       margin-bottom: 2rem;
+//     }
+//     @include respond(phone) {
+//       font-size: 5rem;
+//       line-height: 6rem;
+//       margin-top: 3rem;
+//       margin-bottom: 2rem;
+//     }
+//   }
+//   &__title {
+//     font-family: $font-book;
+//     color: $lima;
+//     font-size: 6rem;
+//     line-height: 6.6rem;
+//     margin-bottom: 5rem;
+//     @include respond(tab-port) {
+//       font-size: 3rem;
+//       line-height: 3.8rem;
+//       margin-bottom: 3rem;
+//     }
+//     @include respond(phone) {
+//       font-size: 3rem;
+//       line-height: 3.8rem;
+//       margin-bottom: 3rem;
+//     }
+//   }
+// }
 
-.section4-3-text {
-  &__subtitle {
-    font-family: $font-bold;
-    color: $azul-petroleo;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    margin-bottom: 5rem;
-    @include respond(tab-port) {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem;
-    }
-    @include respond(phone) {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 1.2rem;
-    }
-  }
-  &__text {
-    font-family: $font-book;
-    color: $azul-petroleo;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    margin-bottom: 5rem;
-    @include respond(tab-port) {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem;
-    }
-    @include respond(phone) {
-      font-size: 1.6rem;
-      line-height: 2.6rem;
-      margin-bottom: 3rem;
-    }
-  }
-}
+// .section4-3-text {
+//   &__subtitle {
+//     font-family: $font-bold;
+//     color: $azul-petroleo;
+//     font-size: 2.4rem;
+//     line-height: 3.2rem;
+//     margin-bottom: 5rem;
+//     @include respond(tab-port) {
+//       font-size: 1.6rem;
+//       line-height: 2.6rem;
+//       margin-bottom: 3rem;
+//     }
+//     @include respond(phone) {
+//       font-size: 1.6rem;
+//       line-height: 2.6rem;
+//       margin-bottom: 1.2rem;
+//     }
+//   }
+//   &__text {
+//     font-family: $font-book;
+//     color: $azul-petroleo;
+//     font-size: 2.4rem;
+//     line-height: 3.2rem;
+//     margin-bottom: 5rem;
+//     @include respond(tab-port) {
+//       font-size: 1.6rem;
+//       line-height: 2.6rem;
+//       margin-bottom: 3rem;
+//     }
+//     @include respond(phone) {
+//       font-size: 1.6rem;
+//       line-height: 2.6rem;
+//       margin-bottom: 3rem;
+//     }
+//   }
+// }
 
 .container1 {
   display: flex;
@@ -160,11 +160,11 @@
 }
 
 
-.container-numbers {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem !important;
-} 
+// .container-numbers {
+//   display: flex;
+//   justify-content: space-between;
+//   margin-bottom: 8rem !important;
+// } 
 
 .indicators {
   @include respond(tab-port) {
