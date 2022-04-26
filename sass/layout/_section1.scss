@@ -107,12 +107,12 @@
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     @include respond(phone) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem;
+     margin-bottom: 2rem;
     }
   }
   &__subtitle {
@@ -124,12 +124,12 @@
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     @include respond(phone) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   &__text {
@@ -141,12 +141,12 @@
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
     @include respond(phone) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
   }
 }
@@ -164,4 +164,16 @@
 
 .section-logo {
   height: 10rem;
+  @include respond(tab-port) {
+    width: 5.134rem;
+    height: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+  @include respond(phone) {
+    width: 5.134rem;
+    height: 6rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
 }

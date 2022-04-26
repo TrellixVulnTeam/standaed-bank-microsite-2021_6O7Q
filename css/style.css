@@ -1208,12 +1208,12 @@ body {
     .section1-text__title {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 2rem; } }
   @media only screen and (max-width: 43.7em) {
     .section1-text__title {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 2rem; } }
 
 .section1-text__subtitle {
   font-family: "bentonsansbold";
@@ -1225,12 +1225,12 @@ body {
     .section1-text__subtitle {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 2rem; } }
   @media only screen and (max-width: 43.7em) {
     .section1-text__subtitle {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 2rem; } }
 
 .section1-text__text {
   font-family: "bentonsansbook";
@@ -1242,12 +1242,12 @@ body {
     .section1-text__text {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 5rem; } }
   @media only screen and (max-width: 43.7em) {
     .section1-text__text {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem; } }
+      margin-bottom: 5rem; } }
 
 .section1-button {
   background-image: linear-gradient(90deg, #0072CE 0%, #00A9E0 100%);
@@ -1260,6 +1260,18 @@ body {
 
 .section-logo {
   height: 10rem; }
+  @media only screen and (min-width: 43.7em) and (max-width: 56.25em) {
+    .section-logo {
+      width: 5.134rem;
+      height: 6rem;
+      margin-top: 6rem;
+      margin-bottom: 2rem; } }
+  @media only screen and (max-width: 43.7em) {
+    .section-logo {
+      width: 5.134rem;
+      height: 6rem;
+      margin-top: 8rem;
+      margin-bottom: 2rem; } }
 
 .section--2 {
   background-image: url(../img/section2-background.svg); }
