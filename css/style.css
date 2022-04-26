@@ -594,7 +594,7 @@ body {
   align-items: center; }
 
 .hamburguer-icon {
-  display: block;
+  display: flex;
   margin-left: 1.4rem; }
   .hamburguer-icon__bar {
     height: 3px;
@@ -1279,8 +1279,7 @@ body {
 
 .hamb-size {
   width: 3rem;
-  height: 2.5rem;
-  margin-bottom: -0.5rem; }
+  height: 2.5rem; }
 
 .section--2 {
   background-image: url(../img/section2-background.svg); }
