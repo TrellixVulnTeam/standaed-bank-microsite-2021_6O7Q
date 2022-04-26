@@ -95,12 +95,12 @@
     @include respond(tab-port) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem;
+      margin-botto2: 3rem;
     }
     @include respond(phone) {
       font-size: 3rem;
       line-height: 3.8rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   &__subtitle {
@@ -112,12 +112,12 @@
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     @include respond(phone) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
   &__text {
@@ -129,12 +129,12 @@
     @include respond(tab-port) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     @include respond(phone) {
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
   }
 }
