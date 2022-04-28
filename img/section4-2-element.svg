@@ -1,17 +1,1 @@
-<svg width="390" height="238" viewBox="0 0 390 238" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_275_3979)">
-<path d="M-32 243.18C-32 243.18 -8.07997 -0.230316 124.26 1.35971C256.6 2.94973 418.89 125.76 458.75 39.6598C498.61 -46.4402 457.48 -203.46 753.44 -153.34L753.44 -22.5602C753.44 -22.5602 595.09 -105.65 548.9 -30.3002C527.46 4.69977 507.66 47.6998 473.31 72.1798C453.57 86.2298 431.54 91.3898 407.47 88.7898C387 86.5898 366.88 80.7898 346.3 80.7898C296.1 80.7897 260.21 117.79 227.53 151.27C212.73 166.44 198.66 182.96 188.03 201.38C186.69 203.66 169.85 243.18 175.33 243.18L-32 243.18Z" fill="url(#paint0_linear_275_3979)"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear_275_3979" x1="396.5" y1="243" x2="49" y2="20" gradientUnits="userSpaceOnUse">
-<stop stop-color="#9AA200"/>
-<stop offset="0.22" stop-color="#9AA200"/>
-<stop offset="0.44" stop-color="#32A1C6"/>
-<stop offset="0.74" stop-color="#0086C5"/>
-<stop offset="1" stop-color="#0072B3"/>
-</linearGradient>
-<clipPath id="clip0_275_3979">
-<rect width="390" height="371" fill="white" transform="translate(0 -125)"/>
-</clipPath>
-</defs>
-</svg>
+<svg fill="none" height="238" viewBox="0 0 390 238" width="390" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="396.5" x2="49" y1="243" y2="20"><stop offset="0" stop-color="#9aa200"/><stop offset=".22" stop-color="#9aa200"/><stop offset=".44" stop-color="#32a1c6"/><stop offset=".74" stop-color="#0086c5"/><stop offset="1" stop-color="#0072b3"/></linearGradient><clipPath id="b"><path d="m0-125h390v371h-390z"/></clipPath><g clip-path="url(#b)"><path d="m-32 243.18s23.92003-243.410316 156.26-241.82029c132.34 1.59002 294.63 124.40029 334.49 38.30009 39.86-86.1-1.27-243.1198 294.69-192.9998v130.7798s-158.35-83.0898-204.54-7.74c-21.44 34.99997-41.24 78-75.59 102.48-19.74 14.05-41.77 19.21-65.84 16.61-20.47-2.2-40.59-8-61.17-8-50.2-.0001-86.09 37.0002-118.77 70.4802-14.8 15.17-28.87 31.69-39.5 50.11-1.34 2.28-18.18 41.8-12.7 41.8z" fill="url(#a)"/></g></svg>
