@@ -365,6 +365,9 @@ opacity: 0.5;
 
     .hamburguer-icon {
       margin-left: 3.8rem;
+      @include respond(phone) {
+        margin-left: 3rem;
+      }
     
     }
     .hamburguer-icon:hover {

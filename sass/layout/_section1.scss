@@ -187,4 +187,10 @@
 .hamb-size {
 width: 3rem;
 height: 2.5rem;
+@include respond(tab-port) {
+  margin-top: 0.5rem;
+}
+@include respond(phone) {
+  margin-top: 0.5rem;
+}
 }

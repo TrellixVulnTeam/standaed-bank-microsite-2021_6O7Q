@@ -9,6 +9,7 @@ function menuFunction() {
       x.classList.remove('menu-in');
       // rolling.style.overflowY = "auto";
       document.getElementById('hamb').src="img/hamb.svg";
+      document.getElementById('hamb-phone').src="img/hamb.svg";
       document.getElementById("00").style.position = "absolute";
       for (const box of ActiveHamb) {
         box.classList.remove('hamburguer-icon__active');
@@ -22,6 +23,7 @@ function menuFunction() {
       x.classList.add('menu-in');
       x.classList.remove('menu-out');
       document.getElementById('hamb').src="img/cross.svg";
+      document.getElementById('hamb-phone').src="img/cross.svg";
       for (const box of ActiveHamb) {
         box.classList.add('hamburguer-icon__active');
       }
